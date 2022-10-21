@@ -44,9 +44,9 @@ namespace ConsoleStart
                 //app.UseHsts();
             }
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
+            app.UseWebSockets();
             app.UseMvc();
-            //app.UseWebSockets();
         }
     }
 }
