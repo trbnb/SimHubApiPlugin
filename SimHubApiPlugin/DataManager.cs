@@ -1,4 +1,5 @@
-﻿using ACSharedMemory.Reader;
+﻿using ACSharedMemory.ACC.Reader;
+using ACSharedMemory.Reader;
 using GameReaderCommon;
 using System;
 using System.Collections.Generic;
@@ -22,8 +23,10 @@ namespace SimHubApiPlugin
                 return;
             }
 
-            ACRawData acRawData = (data as GameData<ACRawData>)?.GameNewData?.Raw;
-            var rawDataParser = new RawDataParser(acRawData);
+            var rawDataParser = new RawDataParser(
+                acRawData: (data as GameData<ACRawData>)?.GameNewData?.Raw,
+                accRawData: (data as GameData<ACCRawData>)?.GameNewData.Raw
+            );
 
             CurrentData = new GameData
             {
@@ -59,13 +62,15 @@ namespace SimHubApiPlugin
     public class RawDataParser
     {
         private readonly ACRawData acRawData;
+        private readonly ACCRawData accRawData;
 
-        public RawDataParser(ACRawData acRawData)
+        public RawDataParser(ACRawData acRawData, ACCRawData accRawData)
         {
             this.acRawData = acRawData;
+            this.accRawData = accRawData;
         }
 
-        public float DeltaInSeconds => acRawData.Physics.PerformanceMeter;
-        public float ErsBattery => acRawData.Physics.KersCharge;
+        public float DeltaInSeconds => acRawData?.Physics.PerformanceMeter ?? accRawData?.Physics.PerformanceMeter ?? 0f;
+        public float ErsBattery => acRawData?.Physics.KersCharge ?? accRawData?.Physics.KersCharge ?? 0f;
     }
 }
