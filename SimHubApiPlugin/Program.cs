@@ -11,38 +11,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore;
+using System.Threading;
 
-namespace ConsoleStart
+namespace SimHubApiPlugin
 {
-    class Program
+    public class Program
     {
-
-        public static void Main(string[] args)
+        public static IDisposable Start(int port)
         {
-            WebHost.CreateDefaultBuilder(args)
+            var host = WebHost.CreateDefaultBuilder()
                 .UseStartup<Startup>()
-                .Build()
-                .Run();
+                .UseUrls("http://*:" + port.ToString())
+                .Build();
+
+            host.RunAsync();
+
+            return new ActionDisposable(() => host.StopAsync());
         }
 
-        static void Main2(string[] args)
+        private class ActionDisposable : IDisposable
         {
-            new WebHostBuilder()
-                //.UseStartup<Sim>()
-                .Build()
-                .RunAsync();
+            private readonly Action action;
 
-            Console.ReadLine();
+            public ActionDisposable(Action action)
+            {
+                this.action = action;
+            }
 
-            /**
-             * new WebHostBuilder()
-             *      .UseKestrel((serverOptions => serverOptions.ConfigureEndpointDefaults((Action<ListenOptions>) (listenOptions => listenOptions.NoDelay = true))))
-             *      .UseStartup<KestrelStartup>()
-             *      .UseUrls("http://*:" + port.ToString())
-             *      .UseWebRoot("Web")
-             *      .Build()
-             *      .Run();
-             */
+            public void Dispose()
+            {
+                action();
+            }
         }
     }
 }

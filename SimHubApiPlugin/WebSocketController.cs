@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using GameReaderCommon;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,17 +11,22 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ConsoleStart
+namespace SimHubApiPlugin
 {
     [Route("[controller]")]
     [ApiController]
     public class DataController : ControllerBase
     {
+        private readonly JsonSerializerSettings _jsonSettings = new JsonSerializerSettings()
+        {
+            ContractResolver = new CamelCasePropertyNamesContractResolver()
+        };
+
         // GET api/values
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<string>>> Get()
+        public async Task<ActionResult<GameData>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return DataManager.Instance.CurrentData;
         }
 
         [HttpGet("/ws")]
@@ -40,20 +49,18 @@ namespace ConsoleStart
         {
             var buffer = new byte[1024 * 4];
             var result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
-            //_logger.Log(LogLevel.Information, "Message received from Client");
+            var wasSuccess = int.TryParse(Encoding.UTF8.GetString(buffer), out int fps);
+            if (!wasSuccess) fps = 60;
+            var delay = 1000f / fps;
 
             while (!result.CloseStatus.HasValue)
             {
-                var serverMsg = Encoding.UTF8.GetBytes($"Server: Hello. You said: {Encoding.UTF8.GetString(buffer)}");
+                var data = JsonConvert.SerializeObject(DataManager.Instance.CurrentData, _jsonSettings);
+                var serverMsg = Encoding.UTF8.GetBytes(data);
                 await webSocket.SendAsync(new ArraySegment<byte>(serverMsg, 0, serverMsg.Length), result.MessageType, result.EndOfMessage, CancellationToken.None);
-                //_logger.Log(LogLevel.Information, "Message sent to Client");
-
-                result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
-                //_logger.Log(LogLevel.Information, "Message received from Client");
-
+                await Task.Delay((int)delay);
             }
             await webSocket.CloseAsync(result.CloseStatus.Value, result.CloseStatusDescription, CancellationToken.None);
-            //_logger.Log(LogLevel.Information, "WebSocket connection closed");
         }
     }
 }
