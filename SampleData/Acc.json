@@ -1,0 +1,2717 @@
+{
+    "Graphics": {
+        "PacketId": 17105,
+        "Status": 2,
+        "Session": 2,
+        "CurrentTime": "0:30:802",
+        "LastTime": "3:32:583",
+        "BestTime": "3:32:583",
+        "Split": "0:00:550",
+        "CompletedLaps": 1,
+        "Position": 17,
+        "iCurrentTime": 30802,
+        "iLastTime": 212583,
+        "iBestTime": 212583,
+        "SessionTimeLeft": 747550.0,
+        "DistanceTraveled": 8170.19775,
+        "IsInPit": 0,
+        "CurrentSectorIndex": 1,
+        "LastSectorTime": 30252,
+        "NumberOfLaps": 0,
+        "TyreCompound": "dry_compound",
+        "ReplayTimeMultiplier": 0.0,
+        "NormalizedCarPosition": 0.336313963,
+        "CarCount": 24,
+        "CarCoordinates": [
+            {
+                "x": 1661.61633,
+                "y": 458.482452,
+                "z": 1766.48352
+            },
+            {
+                "x": 1749.3446,
+                "y": 462.1214,
+                "z": 1484.67041
+            },
+            {
+                "x": 1786.26477,
+                "y": 456.938446,
+                "z": 1267.90308
+            },
+            {
+                "x": 1783.34924,
+                "y": 463.6767,
+                "z": 1675.937
+            },
+            {
+                "x": 1785.09509,
+                "y": 454.074249,
+                "z": 1162.58789
+            },
+            {
+                "x": 1758.01,
+                "y": 461.150482,
+                "z": 1441.84949
+            },
+            {
+                "x": 1752.34021,
+                "y": 462.568146,
+                "z": 1507.91577
+            },
+            {
+                "x": 1750.479,
+                "y": 462.33963,
+                "z": 1494.8916
+            },
+            {
+                "x": 1728.42273,
+                "y": 462.0745,
+                "z": 1749.21692
+            },
+            {
+                "x": 1785.34766,
+                "y": 454.812775,
+                "z": 1190.35339
+            },
+            {
+                "x": 1784.7,
+                "y": 453.1256,
+                "z": 1121.02014
+            },
+            {
+                "x": 1754.71875,
+                "y": 462.763672,
+                "z": 1727.28345
+            },
+            {
+                "x": 1782.871,
+                "y": 450.51004,
+                "z": 1018.49652
+            },
+            {
+                "x": 1788.06848,
+                "y": 464.49,
+                "z": 1614.45422
+            },
+            {
+                "x": 1786.69421,
+                "y": 464.032654,
+                "z": 1659.83447
+            },
+            {
+                "x": 1786.99878,
+                "y": 458.539429,
+                "z": 1327.629
+            },
+            {
+                "x": 1786.49817,
+                "y": 464.420074,
+                "z": 1604.19629
+            },
+            {
+                "x": 1767.54321,
+                "y": 460.768555,
+                "z": 1423.57324
+            },
+            {
+                "x": 1779.959,
+                "y": 463.960419,
+                "z": 1577.72937
+            },
+            {
+                "x": 1786.28333,
+                "y": 458.283142,
+                "z": 1316.78687
+            },
+            {
+                "x": 1784.33093,
+                "y": 452.43866,
+                "z": 1096.52527
+            },
+            {
+                "x": 1762.22522,
+                "y": 460.971436,
+                "z": 1432.41089
+            },
+            {
+                "x": 1782.09668,
+                "y": 458.6325,
+                "z": 1329.08032
+            },
+            {
+                "x": 1786.42664,
+                "y": 457.296051,
+                "z": 1281.04614
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        ],
+        "CarIDs": [
+            1,
+            11,
+            16,
+            3,
+            22,
+            9,
+            10,
+            7,
+            0,
+            20,
+            18,
+            2,
+            23,
+            6,
+            5,
+            13,
+            4,
+            14,
+            8,
+            19,
+            21,
+            12,
+            17,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "PlayerCarID": 19,
+        "PenaltyTime": 0.0,
+        "Flag": 0,
+        "Penalty": 0,
+        "IdealLineOn": 0,
+        "IsInPitLane": 0,
+        "SurfaceGrip": 0.0,
+        "MandatoryPitDone": 1,
+        "WindSpeed": 16.963974,
+        "WindDirection": -133.677582,
+        "IsSetupMenuVisible": 0,
+        "MainDisplayIndex": 1,
+        "SecondaryDisplayIndex": 0,
+        "TC": 4,
+        "TCCut": 9,
+        "EngineMap": 7,
+        "ABS": 4,
+        "FuelXLap": 3.10910416,
+        "RainLights": 0,
+        "FlashingLights": 0,
+        "LightsStage": 0,
+        "ExhaustTemperature": 519.4665,
+        "WiperLV": 0,
+        "DriverStintTotalTimeLeft": -1000,
+        "DriverStintTimeLeft": -153430,
+        "RainTyres": 0,
+        "SessionIndex": 0,
+        "UsedFuel": 4.834156,
+        "deltaLapTime": "-:--:---",
+        "iDeltaLapTime": 0,
+        "EstimatedLapTime": "1:53:477",
+        "iEstimatedLapTime": 113477,
+        "isDeltaPositive": 0,
+        "iSplit": 550,
+        "isValidLap": 1,
+        "fuelEstimatedLaps": 18.3865967,
+        "trackStatus": "FAST",
+        "missingMandatoryPits": 0,
+        "clock": 57999.9648,
+        "directionLightsLeft": 0,
+        "directionLightsRight": 0,
+        "globalYellow": 0,
+        "globalYellow1": 0,
+        "globalYellow2": 0,
+        "globalYellow3": 0,
+        "globalWhite": 0,
+        "globalGreen": 1,
+        "globalChequered": 0,
+        "globalRed": 0,
+        "mfdTyreSet": 1,
+        "mfdFuelToAdd": 0.0,
+        "mfdTyrePressureLF": 25.3000011,
+        "mfdTyrePressureRF": 26.5,
+        "mfdTyrePressureLR": 25.1,
+        "mfdTyrePressureRR": 26.0,
+        "trackGripStatus": 1,
+        "rainIntensity": 0,
+        "rainIntensityIn10min": 1,
+        "rainIntensityIn30min": 3,
+        "currentTyreSet": 1,
+        "strategyTyreSet": 2,
+        "gapAhead": 134,
+        "gapBehind": -539
+    },
+    "Physics": {
+        "PacketId": 97038,
+        "Gas": 0.0,
+        "Brake": 1.0,
+        "Fuel": 57.1658173,
+        "Gear": 5,
+        "Rpms": 8151,
+        "SteerAngle": 0.02052,
+        "SpeedKmh": 198.268539,
+        "Velocity": [
+            1.06891727,
+            1.40912509,
+            55.00717
+        ],
+        "AccG": [
+            -0.2202465,
+            -0.0597568564,
+            -1.57412112
+        ],
+        "WheelSlip": [
+            0.7800919,
+            1.082798,
+            0.239487827,
+            0.168920383
+        ],
+        "WheelLoad": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "WheelsPressure": [
+            26.8258018,
+            26.701786,
+            26.9979935,
+            27.11869
+        ],
+        "WheelAngularSpeed": [
+            150.930374,
+            145.469086,
+            152.918167,
+            152.918167
+        ],
+        "TyreWear": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "TyreDirtyLevel": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "TyreCoreTemperature": [
+            84.8932953,
+            75.26811,
+            87.72862,
+            81.69422
+        ],
+        "CamberRad": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "SuspensionTravel": [
+            0.02347393,
+            0.0231139213,
+            0.0137432329,
+            0.0123605346
+        ],
+        "Drs": 0.0,
+        "TC": 0.0,
+        "Heading": -0.01727384,
+        "Pitch": 0.0157651771,
+        "Roll": 0.02447794,
+        "CgHeight": 0.0,
+        "CarDamage": [
+            5.374256,
+            2.645433,
+            1.49682951,
+            27.6419811,
+            37.1585
+        ],
+        "NumberOfTyresOut": 0,
+        "PitLimiterOn": 0,
+        "Abs": 0.0,
+        "KersCharge": 0.0,
+        "KersInput": 0.0,
+        "AutoShifterOn": 0,
+        "RideHeight": [
+            0.0,
+            0.0
+        ],
+        "Turbo": 0.0026400676,
+        "Ballast": 0.0,
+        "AirDensity": 0.0,
+        "AirTemp": 24.6441174,
+        "RoadTemp": 30.48642,
+        "LocalAngularVelocity": [
+            -0.00490593864,
+            -0.0903725848,
+            -0.05233696
+        ],
+        "FinalFF": 0.196300358,
+        "PerformanceMeter": 0.0,
+        "EngineBrake": 0,
+        "ErsRecoveryLevel": 0,
+        "ErsPowerLevel": 0,
+        "ErsHeatCharging": 0,
+        "ErsisCharging": 0,
+        "KersCurrentKJ": 0.0,
+        "DrsAvailable": 0,
+        "DrsEnabled": 0,
+        "BrakeTemp": [
+            381.57608,
+            378.6903,
+            273.089142,
+            272.770538
+        ],
+        "Clutch": 1.0,
+        "TyreTempI": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "TyreTempM": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "TyreTempO": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "IsAIControlled": 0,
+        "TyreContactPoint": [
+            {
+                "X": 1787.203,
+                "Y": 457.942,
+                "Z": 1319.31787
+            },
+            {
+                "X": 1785.43445,
+                "Y": 457.9827,
+                "Z": 1319.34668
+            },
+            {
+                "X": 1787.13464,
+                "Y": 457.880737,
+                "Z": 1316.85413
+            },
+            {
+                "X": 1785.41785,
+                "Y": 457.919,
+                "Z": 1316.88379
+            }
+        ],
+        "TyreContactNormal": [
+            {
+                "X": 0.0233415067,
+                "Y": 0.999407,
+                "Z": -0.025315281
+            },
+            {
+                "X": 0.0216088481,
+                "Y": 0.999439359,
+                "Z": -0.0255699959
+            },
+            {
+                "X": 0.0221513789,
+                "Y": 0.9994288,
+                "Z": -0.02552181
+            },
+            {
+                "X": 0.0210486762,
+                "Y": 0.999433637,
+                "Z": -0.02625543
+            }
+        ],
+        "TyreContactHeading": [
+            {
+                "X": -0.00940187648,
+                "Y": -0.025101617,
+                "Z": -0.9996407
+            },
+            {
+                "X": -0.00644998858,
+                "Y": -0.02543607,
+                "Z": -0.999655664
+            },
+            {
+                "X": -0.0151524255,
+                "Y": -0.02518952,
+                "Z": -0.999567866
+            },
+            {
+                "X": -0.02046334,
+                "Y": -0.0258250739,
+                "Z": -0.999457
+            }
+        ],
+        "BrakeBias": 0.76,
+        "LocalVelocity": [
+            0.105327941,
+            0.544367433,
+            55.0328064
+        ],
+        "P2PActivation": 0,
+        "P2PStatus": 0,
+        "currentMaxRpm": 1.296201E-41,
+        "mz": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "fx": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "fy": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "slipRatio": [
+            -0.0607092343,
+            -0.08789984,
+            -0.0174691081,
+            -0.0132218646
+        ],
+        "slipAngle": [
+            -0.009674513,
+            -0.008580813,
+            -0.0050644367,
+            -0.0007140387
+        ],
+        "tcinAction": 0,
+        "absinAction": 0,
+        "suspensionDamage": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "tyreTemp": [
+            84.8932953,
+            75.26811,
+            87.72862,
+            81.69422
+        ],
+        "waterTemperature": 87.23076,
+        "brakePressure": [
+            0.741053164,
+            0.741052449,
+            0.235076368,
+            0.235074
+        ],
+        "frontBrakeCompound": 1,
+        "rearBrakeCompound": 1,
+        "padLife": [
+            28.96269,
+            28.9628468,
+            28.9587517,
+            28.9588032
+        ],
+        "discLife": [
+            31.9813461,
+            31.9814262,
+            31.9733429,
+            31.97338
+        ],
+        "ignitionOn": 1,
+        "starterEngineOn": 0,
+        "isEngineRunning": 1,
+        "kerbVibration": 0.0,
+        "slipVibrations": -0.07609992,
+        "gVibrations": -0.0151000842,
+        "absVibrations": 0.0
+    },
+    "StaticInfo": {
+        "SMVersion": "1.9",
+        "ACVersion": "1.7",
+        "NumberOfSessions": 0,
+        "NumCars": 24,
+        "CarModel": "porsche_991ii_gt3_r",
+        "Track": "watkins_glen",
+        "PlayerName": "Thorben",
+        "PlayerSurname": "Buchta",
+        "PlayerNick": "",
+        "SectorCount": 3,
+        "MaxTorque": 0.0,
+        "MaxPower": 0.0,
+        "MaxRpm": 9250,
+        "MaxFuel": 107.0,
+        "SuspensionMaxTravel": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "TyreRadius": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "MaxTurboBoost": 0.0,
+        "Deprecated_1": 0.0,
+        "Deprecated_2": 0.0,
+        "PenaltiesEnabled": 1,
+        "AidFuelRate": 2.0,
+        "AidTireRate": 2.0,
+        "AidMechanicalDamage": -1.0,
+        "AidAllowTyreBlankets": 0,
+        "AidStability": 1.0,
+        "AidAutoClutch": 2,
+        "AidAutoBlip": 1,
+        "HasDRS": 0,
+        "HasERS": 0,
+        "HasKERS": 0,
+        "KersMaxJ": 0.0,
+        "EngineBrakeSettingsCount": 0,
+        "ErsPowerControllerCount": 0,
+        "TrackSplineLength": 0.0,
+        "TrackConfiguration": "track config",
+        "ErsMaxJ": 0.0,
+        "IsTimedRace": 0,
+        "HasExtraLap": 0,
+        "carSkin": "skin",
+        "ReversedGridPositions": 0,
+        "PitWindowStart": 450500,
+        "PitWindowEnd": 449500,
+        "IsOnline": 0,
+        "dryTyresName": "DHE",
+        "wetTyresName": "WH"
+    },
+    "Track": {
+        "TrackName": "Watkins Glen International",
+        "TrackId": 23,
+        "TrackMeters": 5552.0,
+        "CameraSets": {
+            "Drivable": [
+                "Chase",
+                "FarChase",
+                "Bonnet",
+                "DashPro",
+                "Cockpit",
+                "Dash",
+                "Helmet"
+            ],
+            "Helicam": [
+                "Helicam"
+            ],
+            "Onboard": [
+                "Onboard0",
+                "Onboard1",
+                "Onboard2",
+                "Onboard3"
+            ],
+            "pitlane": [
+                "pitlane_Cam2",
+                "pitlane_Cam1"
+            ],
+            "set1": [
+                "Set1_Cam4",
+                "Set1_Cam4b",
+                "Set1_Cam5",
+                "Set1_Cam6",
+                "Set1_Cam7",
+                "Set1_Cam8",
+                "Set1_Cam9",
+                "Set1_Cam10",
+                "Set1_Cam11",
+                "Set1_Cam12",
+                "Set1_Cam12b",
+                "Set1_Cam13",
+                "Set1_Cam14",
+                "Set1_Cam1",
+                "Set1_Cam2",
+                "Set1_Cam3"
+            ],
+            "set2": [
+                "Set2_Cam4",
+                "Set2_Cam5",
+                "Set2_Cam6",
+                "Set2_Cam7",
+                "Set2_Cam8",
+                "Set2_Cam9",
+                "Set2_Cam10",
+                "Set2_Cam1",
+                "Set2_Cam2",
+                "Set2_Cam3"
+            ],
+            "setVR": [
+                "CameraVR3",
+                "CameraVR4",
+                "CameraVR5",
+                "CameraVR6",
+                "CameraVR7",
+                "CameraVR8",
+                "CameraVR1",
+                "CameraVR2"
+            ]
+        },
+        "HUDPages": [
+            "Blank",
+            "Basic HUD",
+            "Help",
+            "TimeTable",
+            "Broadcasting",
+            "TrackMap"
+        ]
+    },
+    "Realtime": {
+        "EventIndex": 0,
+        "SessionIndex": 0,
+        "Phase": 5,
+        "SessionTime": "00:02:32.4230000",
+        "RemainingTime": "00:00:00",
+        "TimeOfDay": "00:00:58",
+        "RainLevel": 0.0,
+        "Clouds": 0.0,
+        "Wetness": 0.0,
+        "BestSessionLap": {
+            "LaptimeMS": 201826,
+            "Splits": [
+                124701,
+                35385,
+                41740
+            ],
+            "CarIndex": 1,
+            "DriverIndex": 0,
+            "IsInvalid": false,
+            "IsValidForBest": true,
+            "Type": 2
+        },
+        "BestLapCarIndex": 0,
+        "BestLapDriverIndex": 0,
+        "FocusedCarIndex": 19,
+        "ActiveCameraSet": "Drivable",
+        "ActiveCamera": "Cockpit",
+        "IsReplayPlaying": false,
+        "ReplaySessionTime": 0.0,
+        "ReplayRemainingTime": 0.0,
+        "SessionRemainingTime": "00:00:00",
+        "SessionEndTime": "00:12:27.5780000",
+        "SessionType": 10,
+        "AmbientTemp": 24,
+        "TrackTemp": 30,
+        "CurrentHudPage": "Basic HUD"
+    },
+    "Cars": {
+        "0": {
+            "CarIndex": 0,
+            "DriverIndex": 0,
+            "Gear": 3,
+            "WorldPosX": 1.03090262,
+            "WorldPosY": -0.0271857865,
+            "Yaw": -0.09095263,
+            "CarLocation": 1,
+            "Kmh": 181,
+            "Position": 2,
+            "TrackPosition": 0,
+            "SplinePosition": 0.422379971,
+            "Delta": -94656,
+            "BestSessionLap": {
+                "LaptimeMS": 202951,
+                "Splits": [
+                    125143,
+                    35732,
+                    42075
+                ],
+                "CarIndex": 0,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 202951,
+                "Splits": [
+                    125143,
+                    35732,
+                    42075
+                ],
+                "CarIndex": 0,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 40407,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 0,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 2,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 0,
+                "CarModelType": 8,
+                "TeamName": "CMR",
+                "RaceNumber": 107,
+                "CupCategory": 3,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Ulysse",
+                        "LastName": "De Pauw",
+                        "ShortName": "DEP",
+                        "Category": 1,
+                        "Nationality": 7
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 2
+        },
+        "1": {
+            "CarIndex": 1,
+            "DriverIndex": 0,
+            "Gear": 3,
+            "WorldPosX": 1.61126041,
+            "WorldPosY": -0.0717155039,
+            "Yaw": -0.11890395,
+            "CarLocation": 1,
+            "Kmh": 184,
+            "Position": 1,
+            "TrackPosition": 0,
+            "SplinePosition": 0.435319,
+            "Delta": -94391,
+            "BestSessionLap": {
+                "LaptimeMS": 201826,
+                "Splits": [
+                    124701,
+                    35385,
+                    41740
+                ],
+                "CarIndex": 1,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 201826,
+                "Splits": [
+                    124701,
+                    35385,
+                    41740
+                ],
+                "CarIndex": 1,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 41532,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 1,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 1,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 1,
+                "CarModelType": 0,
+                "TeamName": "EBM",
+                "RaceNumber": 912,
+                "CupCategory": 0,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Matt",
+                        "LastName": "Campbell",
+                        "ShortName": "CAM",
+                        "Category": 2,
+                        "Nationality": 41
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 1
+        },
+        "2": {
+            "CarIndex": 2,
+            "DriverIndex": 0,
+            "Gear": 2,
+            "WorldPosX": 0.7625039,
+            "WorldPosY": -0.00231514848,
+            "Yaw": -0.07398602,
+            "CarLocation": 1,
+            "Kmh": 179,
+            "Position": 3,
+            "TrackPosition": 0,
+            "SplinePosition": 0.416026026,
+            "Delta": -94511,
+            "BestSessionLap": {
+                "LaptimeMS": 203198,
+                "Splits": [
+                    125368,
+                    35852,
+                    41977
+                ],
+                "CarIndex": 2,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 203198,
+                "Splits": [
+                    125368,
+                    35852,
+                    41977
+                ],
+                "CarIndex": 2,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 40160,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 2,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 3,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 2,
+                "CarModelType": 12,
+                "TeamName": "R-Motorsport",
+                "RaceNumber": 62,
+                "CupCategory": 0,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Matthieu",
+                        "LastName": "Vaxivière",
+                        "ShortName": "VAX",
+                        "Category": 2,
+                        "Nationality": 3
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 3
+        },
+        "3": {
+            "CarIndex": 3,
+            "DriverIndex": 0,
+            "Gear": 3,
+            "WorldPosX": 0.289139718,
+            "WorldPosY": -0.0226747468,
+            "Yaw": -0.08153902,
+            "CarLocation": 1,
+            "Kmh": 180,
+            "Position": 4,
+            "TrackPosition": 0,
+            "SplinePosition": 0.405051,
+            "Delta": -96078,
+            "BestSessionLap": {
+                "LaptimeMS": 204788,
+                "Splits": [
+                    125523,
+                    37015,
+                    42250
+                ],
+                "CarIndex": 3,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 204788,
+                "Splits": [
+                    125523,
+                    37015,
+                    42250
+                ],
+                "CarIndex": 3,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 38570,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 3,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 4,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 3,
+                "CarModelType": 3,
+                "TeamName": "Audi Sport Team Valvoline",
+                "RaceNumber": 2,
+                "CupCategory": 0,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Christopher",
+                        "LastName": "Mies",
+                        "ShortName": "MIE",
+                        "Category": 3,
+                        "Nationality": 2
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 4
+        },
+        "4": {
+            "CarIndex": 4,
+            "DriverIndex": 0,
+            "Gear": 3,
+            "WorldPosX": -0.1576753,
+            "WorldPosY": 0.005686894,
+            "Yaw": -0.0445975326,
+            "CarLocation": 1,
+            "Kmh": 177,
+            "Position": 7,
+            "TrackPosition": 0,
+            "SplinePosition": 0.391650528,
+            "Delta": -96865,
+            "BestSessionLap": {
+                "LaptimeMS": 206198,
+                "Splits": [
+                    126463,
+                    37225,
+                    42510
+                ],
+                "CarIndex": 4,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 206198,
+                "Splits": [
+                    126463,
+                    37225,
+                    42510
+                ],
+                "CarIndex": 4,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 37160,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 4,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 7,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 4,
+                "CarModelType": 20,
+                "TeamName": "Beechdean AMR",
+                "RaceNumber": 95,
+                "CupCategory": 0,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Nicki",
+                        "LastName": "Thiim",
+                        "ShortName": "THI",
+                        "Category": 3,
+                        "Nationality": 32
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 7
+        },
+        "5": {
+            "CarIndex": 5,
+            "DriverIndex": 0,
+            "Gear": 3,
+            "WorldPosX": 0.170635208,
+            "WorldPosY": -0.02198538,
+            "Yaw": -0.0761211142,
+            "CarLocation": 1,
+            "Kmh": 184,
+            "Position": 5,
+            "TrackPosition": 0,
+            "SplinePosition": 0.401989728,
+            "Delta": -96509,
+            "BestSessionLap": {
+                "LaptimeMS": 205221,
+                "Splits": [
+                    125581,
+                    37325,
+                    42315
+                ],
+                "CarIndex": 5,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 205221,
+                "Splits": [
+                    125581,
+                    37325,
+                    42315
+                ],
+                "CarIndex": 5,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 38137,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 5,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 5,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 5,
+                "CarModelType": 15,
+                "TeamName": "Tech 1 Racing",
+                "RaceNumber": 17,
+                "CupCategory": 3,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Thomas",
+                        "LastName": "Neubauer",
+                        "ShortName": "NEU",
+                        "Category": 1,
+                        "Nationality": 3
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 5
+        },
+        "6": {
+            "CarIndex": 6,
+            "DriverIndex": 0,
+            "Gear": 3,
+            "WorldPosX": -0.08851377,
+            "WorldPosY": -0.00684681535,
+            "Yaw": -0.03439731,
+            "CarLocation": 1,
+            "Kmh": 178,
+            "Position": 6,
+            "TrackPosition": 0,
+            "SplinePosition": 0.393556178,
+            "Delta": -96491,
+            "BestSessionLap": {
+                "LaptimeMS": 205898,
+                "Splits": [
+                    126063,
+                    37347,
+                    42487
+                ],
+                "CarIndex": 6,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 205898,
+                "Splits": [
+                    126063,
+                    37347,
+                    42487
+                ],
+                "CarIndex": 6,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 37460,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 6,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 6,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 6,
+                "CarModelType": 14,
+                "TeamName": "Emil Frey Jaguar Racing",
+                "RaceNumber": 55,
+                "CupCategory": 3,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Alex",
+                        "LastName": "Fontana",
+                        "ShortName": "FON",
+                        "Category": 1,
+                        "Nationality": 8
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 6
+        },
+        "7": {
+            "CarIndex": 7,
+            "DriverIndex": 0,
+            "Gear": 3,
+            "WorldPosX": -0.104981132,
+            "WorldPosY": 0.0185288284,
+            "Yaw": 0.00679134065,
+            "CarLocation": 1,
+            "Kmh": 154,
+            "Position": 10,
+            "TrackPosition": 0,
+            "SplinePosition": 0.370248646,
+            "Delta": -97268,
+            "BestSessionLap": {
+                "LaptimeMS": 208626,
+                "Splits": [
+                    126743,
+                    38152,
+                    43730
+                ],
+                "CarIndex": 7,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 208626,
+                "Splits": [
+                    126743,
+                    38152,
+                    43730
+                ],
+                "CarIndex": 7,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 34732,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 7,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 10,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 7,
+                "CarModelType": 7,
+                "TeamName": "Walkenhorst Motorsport",
+                "RaceNumber": 34,
+                "CupCategory": 0,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Sheldon",
+                        "LastName": "van der Linde",
+                        "ShortName": "SLI",
+                        "Category": 1,
+                        "Nationality": 18
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 10
+        },
+        "8": {
+            "CarIndex": 8,
+            "DriverIndex": 0,
+            "Gear": 3,
+            "WorldPosX": -0.285848618,
+            "WorldPosY": 0.01581113,
+            "Yaw": 0.00206253259,
+            "CarLocation": 1,
+            "Kmh": 171,
+            "Position": 8,
+            "TrackPosition": 0,
+            "SplinePosition": 0.3865953,
+            "Delta": -97329,
+            "BestSessionLap": {
+                "LaptimeMS": 206593,
+                "Splits": [
+                    126696,
+                    37570,
+                    42327
+                ],
+                "CarIndex": 8,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 206593,
+                "Splits": [
+                    126696,
+                    37570,
+                    42327
+                ],
+                "CarIndex": 8,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 36765,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 8,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 8,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 8,
+                "CarModelType": 23,
+                "TeamName": "Dinamic Motorsport",
+                "RaceNumber": 56,
+                "CupCategory": 0,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Christian",
+                        "LastName": "Engelhart",
+                        "ShortName": "CEN",
+                        "Category": 2,
+                        "Nationality": 2
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 8
+        },
+        "9": {
+            "CarIndex": 9,
+            "DriverIndex": 0,
+            "Gear": 3,
+            "WorldPosX": 0.3691891,
+            "WorldPosY": 0.0152760381,
+            "Yaw": -0.01095795,
+            "CarLocation": 1,
+            "Kmh": 171,
+            "Position": 12,
+            "TrackPosition": 0,
+            "SplinePosition": 0.36022675,
+            "Delta": -96727,
+            "BestSessionLap": {
+                "LaptimeMS": 208836,
+                "Splits": [
+                    127753,
+                    37805,
+                    43277
+                ],
+                "CarIndex": 9,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 208836,
+                "Splits": [
+                    127753,
+                    37805,
+                    43277
+                ],
+                "CarIndex": 9,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 34522,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 9,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 12,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 9,
+                "CarModelType": 5,
+                "TeamName": "Garage 59",
+                "RaceNumber": 58,
+                "CupCategory": 0,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Côme",
+                        "LastName": "Ledogar",
+                        "ShortName": "LED",
+                        "Category": 3,
+                        "Nationality": 3
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 12
+        },
+        "10": {
+            "CarIndex": 10,
+            "DriverIndex": 0,
+            "Gear": 2,
+            "WorldPosX": -0.218086153,
+            "WorldPosY": 0.0190779381,
+            "Yaw": 0.008688683,
+            "CarLocation": 1,
+            "Kmh": 154,
+            "Position": 9,
+            "TrackPosition": 0,
+            "SplinePosition": 0.372703433,
+            "Delta": -97566,
+            "BestSessionLap": {
+                "LaptimeMS": 208278,
+                "Splits": [
+                    127006,
+                    38187,
+                    43085
+                ],
+                "CarIndex": 10,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 208278,
+                "Splits": [
+                    127006,
+                    38187,
+                    43085
+                ],
+                "CarIndex": 10,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 35080,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 10,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 9,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 10,
+                "CarModelType": 6,
+                "TeamName": "KCMG",
+                "RaceNumber": 18,
+                "CupCategory": 0,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Oliver",
+                        "LastName": "Jarvis",
+                        "ShortName": "JAR",
+                        "Category": 3,
+                        "Nationality": 5
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 9
+        },
+        "11": {
+            "CarIndex": 11,
+            "DriverIndex": 0,
+            "Gear": 2,
+            "WorldPosX": -0.04991979,
+            "WorldPosY": 0.00196332322,
+            "Yaw": 0.000531403639,
+            "CarLocation": 1,
+            "Kmh": 154,
+            "Position": 11,
+            "TrackPosition": 0,
+            "SplinePosition": 0.368371278,
+            "Delta": -98345,
+            "BestSessionLap": {
+                "LaptimeMS": 208891,
+                "Splits": [
+                    127886,
+                    38002,
+                    43002
+                ],
+                "CarIndex": 11,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 208891,
+                "Splits": [
+                    127886,
+                    38002,
+                    43002
+                ],
+                "CarIndex": 11,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 34467,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 11,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 11,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 11,
+                "CarModelType": 1,
+                "TeamName": "JP Motorsport",
+                "RaceNumber": 112,
+                "CupCategory": 1,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Christian",
+                        "LastName": "Klien",
+                        "ShortName": "KLI",
+                        "Category": 3,
+                        "Nationality": 9
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 11
+        },
+        "12": {
+            "CarIndex": 12,
+            "DriverIndex": 0,
+            "Gear": 3,
+            "WorldPosX": 0.433433622,
+            "WorldPosY": 0.01748452,
+            "Yaw": -0.00544639723,
+            "CarLocation": 1,
+            "Kmh": 174,
+            "Position": 13,
+            "TrackPosition": 0,
+            "SplinePosition": 0.3583206,
+            "Delta": -97324,
+            "BestSessionLap": {
+                "LaptimeMS": 209246,
+                "Splits": [
+                    127903,
+                    38347,
+                    42995
+                ],
+                "CarIndex": 12,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 209246,
+                "Splits": [
+                    127903,
+                    38347,
+                    42995
+                ],
+                "CarIndex": 12,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 34112,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 12,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 13,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 12,
+                "CarModelType": 19,
+                "TeamName": "Belgian Audi Club Team WRT",
+                "RaceNumber": 33,
+                "CupCategory": 3,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Ryuichiro",
+                        "LastName": "Tomita",
+                        "ShortName": "TOM",
+                        "Category": 1,
+                        "Nationality": 48
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 13
+        },
+        "13": {
+            "CarIndex": 13,
+            "DriverIndex": 0,
+            "Gear": 4,
+            "WorldPosX": 0.0212834235,
+            "WorldPosY": 0.00395305874,
+            "Yaw": 0.0262150466,
+            "CarLocation": 1,
+            "Kmh": 201,
+            "Position": 16,
+            "TrackPosition": 0,
+            "SplinePosition": 0.338160634,
+            "Delta": -97097,
+            "BestSessionLap": {
+                "LaptimeMS": 211238,
+                "Splits": [
+                    128483,
+                    38920,
+                    43835
+                ],
+                "CarIndex": 13,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 211238,
+                "Splits": [
+                    128483,
+                    38920,
+                    43835
+                ],
+                "CarIndex": 13,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 32120,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 13,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 16,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 13,
+                "CarModelType": 17,
+                "TeamName": "Castrol Honda Racing",
+                "RaceNumber": 30,
+                "CupCategory": 1,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Bertrand",
+                        "LastName": "Baguette",
+                        "ShortName": "BAG",
+                        "Category": 3,
+                        "Nationality": 7
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 16
+        },
+        "14": {
+            "CarIndex": 14,
+            "DriverIndex": 0,
+            "Gear": 2,
+            "WorldPosX": 0.487657458,
+            "WorldPosY": 0.0226200428,
+            "Yaw": 0.003093751,
+            "CarLocation": 1,
+            "Kmh": 167,
+            "Position": 14,
+            "TrackPosition": 0,
+            "SplinePosition": 0.356414348,
+            "Delta": -97489,
+            "BestSessionLap": {
+                "LaptimeMS": 209571,
+                "Splits": [
+                    128026,
+                    38570,
+                    42975
+                ],
+                "CarIndex": 14,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 209571,
+                "Splits": [
+                    128026,
+                    38570,
+                    42975
+                ],
+                "CarIndex": 14,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 33787,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 14,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 14,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 14,
+                "CarModelType": 22,
+                "TeamName": "JP Motorsport",
+                "RaceNumber": 113,
+                "CupCategory": 1,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Christian",
+                        "LastName": "Klien",
+                        "ShortName": "KLI",
+                        "Category": 3,
+                        "Nationality": 9
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 14
+        },
+        "15": {
+            "CarIndex": 15,
+            "DriverIndex": 0,
+            "Gear": 4,
+            "WorldPosX": -0.0060366164,
+            "WorldPosY": 0.0125647485,
+            "Yaw": 0.0292840172,
+            "CarLocation": 1,
+            "Kmh": 239,
+            "Position": 18,
+            "TrackPosition": 0,
+            "SplinePosition": 0.32952702,
+            "Delta": -98101,
+            "BestSessionLap": {
+                "LaptimeMS": 212818,
+                "Splits": [
+                    128721,
+                    38892,
+                    45205
+                ],
+                "CarIndex": 15,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 212818,
+                "Splits": [
+                    128721,
+                    38892,
+                    45205
+                ],
+                "CarIndex": 15,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 30540,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 15,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 18,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 15,
+                "CarModelType": 21,
+                "TeamName": "Racers Edge Motorsports",
+                "RaceNumber": 93,
+                "CupCategory": 1,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Ashton",
+                        "LastName": "Harrison",
+                        "ShortName": "HAR",
+                        "Category": 1,
+                        "Nationality": 39
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 18
+        },
+        "16": {
+            "CarIndex": 16,
+            "DriverIndex": 0,
+            "Gear": 5,
+            "WorldPosX": -0.0110490778,
+            "WorldPosY": 0.01757795,
+            "Yaw": 0.0220477749,
+            "CarLocation": 1,
+            "Kmh": 247,
+            "Position": 19,
+            "TrackPosition": 0,
+            "SplinePosition": 0.327101141,
+            "Delta": -98238,
+            "BestSessionLap": {
+                "LaptimeMS": 213026,
+                "Splits": [
+                    128878,
+                    39227,
+                    44920
+                ],
+                "CarIndex": 16,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 213026,
+                "Splits": [
+                    128878,
+                    39227,
+                    44920
+                ],
+                "CarIndex": 16,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 30332,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 16,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 19,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 16,
+                "CarModelType": 2,
+                "TeamName": "AF Corse",
+                "RaceNumber": 52,
+                "CupCategory": 1,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Andrea",
+                        "LastName": "Bertolini",
+                        "ShortName": "BER",
+                        "Category": 3,
+                        "Nationality": 1
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 19
+        },
+        "17": {
+            "CarIndex": 17,
+            "DriverIndex": 0,
+            "Gear": 4,
+            "WorldPosX": 0.035739664,
+            "WorldPosY": 0.0103925252,
+            "Yaw": -0.005571165,
+            "CarLocation": 1,
+            "Kmh": 207,
+            "Position": 15,
+            "TrackPosition": 0,
+            "SplinePosition": 0.338478476,
+            "Delta": -98271,
+            "BestSessionLap": {
+                "LaptimeMS": 211913,
+                "Splits": [
+                    128951,
+                    38765,
+                    44197
+                ],
+                "CarIndex": 17,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 211913,
+                "Splits": [
+                    128951,
+                    38765,
+                    44197
+                ],
+                "CarIndex": 17,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 31445,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 17,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 15,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 17,
+                "CarModelType": 16,
+                "TeamName": "Zelus Motorsports",
+                "RaceNumber": 88,
+                "CupCategory": 1,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Madison",
+                        "LastName": "Snow",
+                        "ShortName": "SNO",
+                        "Category": 1,
+                        "Nationality": 39
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 15
+        },
+        "18": {
+            "CarIndex": 18,
+            "DriverIndex": 0,
+            "Gear": 4,
+            "WorldPosX": -0.0124878949,
+            "WorldPosY": 0.0263136551,
+            "Yaw": 0.023079833,
+            "CarLocation": 1,
+            "Kmh": 248,
+            "Position": 22,
+            "TrackPosition": 0,
+            "SplinePosition": 0.299921751,
+            "Delta": -98232,
+            "BestSessionLap": {
+                "LaptimeMS": 214211,
+                "Splits": [
+                    129886,
+                    39407,
+                    44917
+                ],
+                "CarIndex": 18,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 214211,
+                "Splits": [
+                    129886,
+                    39407,
+                    44917
+                ],
+                "CarIndex": 18,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 29147,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 18,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 22,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 18,
+                "CarModelType": 11,
+                "TeamName": "Team Parker Racing",
+                "RaceNumber": 32,
+                "CupCategory": 3,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Árón",
+                        "LastName": "Taylor-Smith",
+                        "ShortName": "SMI",
+                        "Category": 1,
+                        "Nationality": 16
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 22
+        },
+        "19": {
+            "CarIndex": 19,
+            "DriverIndex": 0,
+            "Gear": 3,
+            "WorldPosX": -0.0205088723,
+            "WorldPosY": 0.0147454347,
+            "Yaw": 0.0231208652,
+            "CarLocation": 1,
+            "Kmh": 200,
+            "Position": 17,
+            "TrackPosition": 0,
+            "SplinePosition": 0.336169839,
+            "Delta": -99104,
+            "BestSessionLap": {
+                "LaptimeMS": 212583,
+                "Splits": [
+                    129326,
+                    38892,
+                    44365
+                ],
+                "CarIndex": 19,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 212583,
+                "Splits": [
+                    129326,
+                    38892,
+                    44365
+                ],
+                "CarIndex": 19,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 30775,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 19,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 17,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 19,
+                "CarModelType": 23,
+                "TeamName": "Go Tigers Racing",
+                "RaceNumber": 911,
+                "CupCategory": 0,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Thorben",
+                        "LastName": "Buchta",
+                        "ShortName": "BUC",
+                        "Category": 0,
+                        "Nationality": 2
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 17
+        },
+        "20": {
+            "CarIndex": 20,
+            "DriverIndex": 0,
+            "Gear": 5,
+            "WorldPosX": -0.0119759254,
+            "WorldPosY": 0.0244452991,
+            "Yaw": 0.01792092,
+            "CarLocation": 1,
+            "Kmh": 249,
+            "Position": 20,
+            "TrackPosition": 0,
+            "SplinePosition": 0.312745273,
+            "Delta": -98352,
+            "BestSessionLap": {
+                "LaptimeMS": 213448,
+                "Splits": [
+                    129673,
+                    39402,
+                    44372
+                ],
+                "CarIndex": 20,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 213448,
+                "Splits": [
+                    129673,
+                    39402,
+                    44372
+                ],
+                "CarIndex": 20,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 29910,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 20,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 20,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 20,
+                "CarModelType": 10,
+                "TeamName": "GTNET Motorsports",
+                "RaceNumber": 5,
+                "CupCategory": 1,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Eiji",
+                        "LastName": "Yamada",
+                        "ShortName": "YAM",
+                        "Category": 2,
+                        "Nationality": 48
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 20
+        },
+        "21": {
+            "CarIndex": 21,
+            "DriverIndex": 0,
+            "Gear": 5,
+            "WorldPosX": -0.0133483754,
+            "WorldPosY": 0.0277989544,
+            "Yaw": 0.02003288,
+            "CarLocation": 1,
+            "Kmh": 252,
+            "Position": 23,
+            "TrackPosition": 0,
+            "SplinePosition": 0.2953874,
+            "Delta": -98507,
+            "BestSessionLap": {
+                "LaptimeMS": 214381,
+                "Splits": [
+                    130293,
+                    39767,
+                    44320
+                ],
+                "CarIndex": 21,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 214381,
+                "Splits": [
+                    130293,
+                    39767,
+                    44320
+                ],
+                "CarIndex": 21,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 28977,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 21,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 23,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 21,
+                "CarModelType": 24,
+                "TeamName": "AF Corse",
+                "RaceNumber": 21,
+                "CupCategory": 1,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Cedric",
+                        "LastName": "Sbirrazzuoli",
+                        "ShortName": "SBI",
+                        "Category": 1,
+                        "Nationality": 15
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 23
+        },
+        "22": {
+            "CarIndex": 22,
+            "DriverIndex": 0,
+            "Gear": 5,
+            "WorldPosX": -0.00710577425,
+            "WorldPosY": 0.0146393962,
+            "Yaw": 0.0209650416,
+            "CarLocation": 1,
+            "Kmh": 249,
+            "Position": 21,
+            "TrackPosition": 0,
+            "SplinePosition": 0.307604283,
+            "Delta": -98577,
+            "BestSessionLap": {
+                "LaptimeMS": 213851,
+                "Splits": [
+                    129983,
+                    39597,
+                    44270
+                ],
+                "CarIndex": 22,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 213851,
+                "Splits": [
+                    129983,
+                    39597,
+                    44270
+                ],
+                "CarIndex": 22,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 29507,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 22,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 21,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 22,
+                "CarModelType": 4,
+                "TeamName": "Daiko Lazarus Racing",
+                "RaceNumber": 28,
+                "CupCategory": 2,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Immanuel",
+                        "LastName": "Vinke",
+                        "ShortName": "VIN",
+                        "Category": 0,
+                        "Nationality": 2
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 21
+        },
+        "23": {
+            "CarIndex": 23,
+            "DriverIndex": 0,
+            "Gear": 4,
+            "WorldPosX": -0.00644885143,
+            "WorldPosY": 0.0207939688,
+            "Yaw": 0.0260299519,
+            "CarLocation": 1,
+            "Kmh": 240,
+            "Position": 24,
+            "TrackPosition": 0,
+            "SplinePosition": 0.280975461,
+            "Delta": -98884,
+            "BestSessionLap": {
+                "LaptimeMS": 215333,
+                "Splits": [
+                    130931,
+                    39945,
+                    44457
+                ],
+                "CarIndex": 23,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "LastLap": {
+                "LaptimeMS": 215333,
+                "Splits": [
+                    130931,
+                    39945,
+                    44457
+                ],
+                "CarIndex": 23,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "CurrentLap": {
+                "LaptimeMS": 28025,
+                "Splits": [
+                    null,
+                    null,
+                    null
+                ],
+                "CarIndex": 23,
+                "DriverIndex": 0,
+                "IsInvalid": false,
+                "IsValidForBest": true,
+                "Type": 2
+            },
+            "Laps": 1,
+            "CupPosition": 24,
+            "DriverCount": 1,
+            "CarEntry": {
+                "CarIndex": 23,
+                "CarModelType": 13,
+                "TeamName": "Boutsen Ginion Racing",
+                "RaceNumber": 16,
+                "CupCategory": 2,
+                "CurrentDriverIndex": 0,
+                "Drivers": [
+                    {
+                        "FirstName": "Claude-Yves",
+                        "LastName": "Gosselin",
+                        "ShortName": "GOS",
+                        "Category": 0,
+                        "Nationality": 3
+                    }
+                ],
+                "Nationality": 0
+            },
+            "RacePosition": 24
+        }
+    }
+}

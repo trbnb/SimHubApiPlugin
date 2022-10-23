@@ -1,0 +1,2804 @@
+{
+    "Graphics": {
+        "PacketId": 483389,
+        "Status": 2,
+        "Session": 0,
+        "CurrentTime": "12:28:410",
+        "LastTime": "9:50:119",
+        "BestTime": "-:--:---",
+        "Split": "36.3",
+        "CompletedLaps": 2,
+        "Position": 20,
+        "iCurrentTime": 748410,
+        "iLastTime": 590119,
+        "iBestTime": 216752,
+        "SessionTimeLeft": 41642436.0,
+        "DistanceTraveled": 19850.71,
+        "IsInPit": 0,
+        "CurrentSectorIndex": 1,
+        "LastSectorTime": 36330,
+        "NumberOfLaps": 0,
+        "TyreCompound": "Soft (C3)",
+        "ReplayTimeMultiplier": 1.0,
+        "NormalizedCarPosition": 0.331583053,
+        "CarCoordinates": [
+            147.27269,
+            -5.76335,
+            -138.290085
+        ],
+        "PenaltyTime": 0.0,
+        "Flags": 0,
+        "idealLineOn": 0,
+        "isInPitLane": 0,
+        "surfaceGrip": 1.0,
+        "MandatoryPitDone": 0
+    },
+    "Physics": {
+        "PacketId": 518127,
+        "Gas": 1.0,
+        "Brake": 0.0,
+        "Fuel": 29.4755116,
+        "Gear": 8,
+        "Rpms": 10036,
+        "SteerAngle": -0.07128,
+        "SpeedKmh": 249.799347,
+        "Velocity": [
+            -67.749855,
+            1.71580219,
+            14.9542408
+        ],
+        "AccG": [
+            2.07264733,
+            -0.2543448,
+            0.472560078
+        ],
+        "WheelSlip": [
+            0.161497429,
+            0.269615918,
+            0.237030536,
+            0.299446046
+        ],
+        "WheelLoad": [
+            2815.43018,
+            5689.0874,
+            4553.161,
+            6485.63867
+        ],
+        "WheelsPressure": [
+            21.9425774,
+            21.28275,
+            22.0600624,
+            21.6788139
+        ],
+        "WheelAngularSpeed": [
+            203.48909,
+            204.9251,
+            208.402786,
+            208.402786
+        ],
+        "TyreWear": [
+            100.0,
+            100.0,
+            100.0,
+            100.0
+        ],
+        "TyreDirtyLevel": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "TyreCoreTemperature": [
+            87.75507,
+            81.22052,
+            88.91856,
+            85.14293
+        ],
+        "CamberRad": [
+            -0.0692505,
+            0.054113064,
+            -0.0443939865,
+            0.0199425742
+        ],
+        "SuspensionTravel": [
+            0.0252502933,
+            0.0351306051,
+            0.04266713,
+            0.05631128
+        ],
+        "Drs": 0.0,
+        "TC": 0.0,
+        "Heading": 1.339753,
+        "Pitch": 0.0293299966,
+        "Roll": 0.0283455849,
+        "CgHeight": 0.246128082,
+        "CarDamage": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "NumberOfTyresOut": 0,
+        "PitLimiterOn": 0,
+        "Abs": 0.0,
+        "KersCharge": 0.969041348,
+        "KersInput": 0.8366019,
+        "AutoShifterOn": 0,
+        "RideHeight": [
+            0.0211954117,
+            0.0939002
+        ],
+        "Turbo": 1.47945249,
+        "Ballast": 0.0,
+        "AirDensity": 1.20086241,
+        "AirTemp": 19.0,
+        "RoadTemp": 17.0,
+        "LocalAngularVelocity": [
+            0.0441547371,
+            0.304280549,
+            -0.009643195
+        ],
+        "FinalFF": -0.397593826,
+        "PerformanceMeter": -6.678,
+        "EngineBrake": 6,
+        "ErsRecoveryLevel": 5,
+        "ErsPowerLevel": 1,
+        "ErsHeatCharging": 0,
+        "ErsisCharging": 0,
+        "KersCurrentKJ": 521.357239,
+        "DrsAvailable": 0,
+        "DrsEnabled": 0,
+        "BrakeTemp": [
+            80.0907059,
+            80.101326,
+            56.8377647,
+            56.8472328
+        ],
+        "Clutch": 1.0,
+        "TyreTempI": [
+            87.677,
+            93.8062,
+            92.03348,
+            96.0477
+        ],
+        "TyreTempM": [
+            91.50655,
+            89.64705,
+            93.94436,
+            93.92909
+        ],
+        "TyreTempO": [
+            95.69,
+            86.17748,
+            96.1290741,
+            92.29385
+        ],
+        "IsAIControlled": 0,
+        "TyreContactPoint": [
+            {
+                "X": 145.3153,
+                "Y": -5.98916,
+                "Z": -137.0045
+            },
+            {
+                "X": 144.936417,
+                "Y": -5.922065,
+                "Z": -138.598328
+            },
+            {
+                "X": 148.852371,
+                "Y": -6.074096,
+                "Z": -137.881531
+            },
+            {
+                "X": 148.502213,
+                "Y": -6.01130056,
+                "Z": -139.3837
+            }
+        ],
+        "TyreContactNormal": [
+            {
+                "X": 0.03169975,
+                "Y": 0.9988758,
+                "Z": 0.0352454074
+            },
+            {
+                "X": 0.031018706,
+                "Y": 0.998952,
+                "Z": 0.0336571448
+            },
+            {
+                "X": 0.0336240269,
+                "Y": 0.998807669,
+                "Z": 0.035395
+            },
+            {
+                "X": 0.0332838,
+                "Y": 0.9988751,
+                "Z": 0.0337749831
+            }
+        ],
+        "TyreContactHeading": [
+            {
+                "X": 0.9680381,
+                "Y": -0.021905303,
+                "Z": -0.249845028
+            },
+            {
+                "X": 0.9681725,
+                "Y": -0.0216619316,
+                "Z": -0.249344677
+            },
+            {
+                "X": 0.974224746,
+                "Y": -0.0248511955,
+                "Z": -0.224206731
+            },
+            {
+                "X": 0.972429156,
+                "Y": -0.0245613,
+                "Z": -0.2319014
+            }
+        ],
+        "BrakeBias": 0.53,
+        "LocalVelocity": [
+            -0.947948754,
+            -0.3463897,
+            69.39451
+        ]
+    },
+    "StaticInfo": {
+        "SMVersion": "1.7",
+        "ACVersion": "1.16.4",
+        "NumberOfSessions": 1,
+        "NumCars": 20,
+        "CarModel": "rss_formula_hybrid_2021",
+        "Track": "rt_suzuka",
+        "PlayerName": "Thorben Buchta",
+        "PlayerSurname": "Thorben Buchta",
+        "PlayerNick": "Thorben Buchta",
+        "SectorCount": 3,
+        "MaxTorque": 200.638062,
+        "MaxPower": 1009406.81,
+        "MaxRpm": 13050,
+        "MaxFuel": 140.0,
+        "SuspensionMaxTravel": [
+            0.064,
+            0.064,
+            0.09900001,
+            0.09900001
+        ],
+        "TyreRadius": [
+            0.335,
+            0.335,
+            0.335,
+            0.335
+        ],
+        "MaxTurboBoost": 3.5,
+        "Deprecated1": 0.0,
+        "Deprecated2": 0.0,
+        "PenaltiesEnabled": 1,
+        "AidFuelRate": 1.0,
+        "AidTireRate": 1.0,
+        "AidMechanicalDamage": 1.0,
+        "AidAllowTyreBlankets": true,
+        "AidStability": 0.0,
+        "AidAutoClutch": true,
+        "AidAutoBlip": true,
+        "HasDRS": 1,
+        "HasERS": 1,
+        "HasKERS": 0,
+        "KersMaxJ": 0.0,
+        "EngineBrakeSettingsCount": 11,
+        "ErsPowerControllerCount": 6,
+        "TrackSPlineLength": 5771.39551,
+        "TrackConfiguration": "suzukagp",
+        "ErsMaxJ": 4000000.0,
+        "IsTimedRace": 0,
+        "HasExtraLap": 0,
+        "carSkin": "03_mclaren_mcl35m_gulf",
+        "ReversedGridPositions": 0,
+        "PitWindowStart": 0,
+        "PitWindowEnd": 0
+    },
+    "Opponents": {
+        "numVehicles": 20,
+        "focusVehicle": 0,
+        "serverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+        "vehicle": [
+            {
+                "carId": 0,
+                "driverName": "VGhvcmJlbiBCdWNodGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 69.33651,
+                "bestLapMS": 0,
+                "lapCount": 2,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 748404,
+                "lastLapTimeMS": 590119,
+                "worldPosition": {
+                    "x": 147.679184,
+                    "y": -5.77377844,
+                    "z": -138.378876
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 20,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.331510723,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 1,
+                "driverName": "QWRhbSBBbG1lbmRhcmV6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.00198208052,
+                "bestLapMS": 92076,
+                "lapCount": 13,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 29004,
+                "lastLapTimeMS": 94394,
+                "worldPosition": {
+                    "x": 644.8849,
+                    "y": -27.2948952,
+                    "z": -38.3036728
+                },
+                "isCarInPitline": 1,
+                "isCarInPit": 1,
+                "carLeaderboardPosition": 11,
+                "carRealTimeLeaderboardPosition": 1,
+                "spLineLength": 0.05564483,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 2,
+                "driverName": "R2Fib3IgUmVtYmVjemt5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.00159454742,
+                "bestLapMS": 91982,
+                "lapCount": 14,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 48702,
+                "lastLapTimeMS": 95646,
+                "worldPosition": {
+                    "x": 637.6669,
+                    "y": -27.0613327,
+                    "z": -42.7479439
+                },
+                "isCarInPitline": 1,
+                "isCarInPit": 1,
+                "carLeaderboardPosition": 9,
+                "carRealTimeLeaderboardPosition": 2,
+                "spLineLength": 0.05417628,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 3,
+                "driverName": "TWF4IFZlcnN0YXBwZW4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 49.89344,
+                "bestLapMS": 91898,
+                "lapCount": 14,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 26181,
+                "lastLapTimeMS": 184252,
+                "worldPosition": {
+                    "x": 314.85257,
+                    "y": -18.6547279,
+                    "z": -62.89996
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 7,
+                "carRealTimeLeaderboardPosition": 3,
+                "spLineLength": 0.2953895,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 4,
+                "driverName": "TGFuZG8gTm9ycmlzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 81.80067,
+                "bestLapMS": 91942,
+                "lapCount": 14,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 8385,
+                "lastLapTimeMS": 92138,
+                "worldPosition": {
+                    "x": 978.5453,
+                    "y": -38.3077774,
+                    "z": 155.969437
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 8,
+                "carRealTimeLeaderboardPosition": 4,
+                "spLineLength": 0.122959606,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 5,
+                "driverName": "V2lsbGlhbSBHcmlja28AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.001963809,
+                "bestLapMS": 91542,
+                "lapCount": 12,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 95760,
+                "lastLapTimeMS": 94387,
+                "worldPosition": {
+                    "x": 614.764954,
+                    "y": -26.30235,
+                    "z": -56.3695526
+                },
+                "isCarInPitline": 1,
+                "isCarInPit": 1,
+                "carLeaderboardPosition": 2,
+                "carRealTimeLeaderboardPosition": 5,
+                "spLineLength": 0.0495577939,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 6,
+                "driverName": "R2FicmllbCBGcmFzc29uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.000224151765,
+                "bestLapMS": 91648,
+                "lapCount": 14,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 17715,
+                "lastLapTimeMS": 94194,
+                "worldPosition": {
+                    "x": 606.3696,
+                    "y": -26.0312786,
+                    "z": -61.3678627
+                },
+                "isCarInPitline": 1,
+                "isCarInPit": 1,
+                "carLeaderboardPosition": 4,
+                "carRealTimeLeaderboardPosition": 6,
+                "spLineLength": 0.04786621,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 7,
+                "driverName": "S2llcmFuIFVuZGVyd29vZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 58.941967,
+                "bestLapMS": 91755,
+                "lapCount": 12,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 61710,
+                "lastLapTimeMS": 133547,
+                "worldPosition": {
+                    "x": -1099.52307,
+                    "y": 0.931159,
+                    "z": -90.32844
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 5,
+                "carRealTimeLeaderboardPosition": 7,
+                "spLineLength": 0.669760764,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 8,
+                "driverName": "TWFyYyBHZW7DqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 81.67672,
+                "bestLapMS": 91556,
+                "lapCount": 12,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 77811,
+                "lastLapTimeMS": 91556,
+                "worldPosition": {
+                    "x": -183.4873,
+                    "y": -7.12696648,
+                    "z": 108.583595
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 3,
+                "carRealTimeLeaderboardPosition": 8,
+                "spLineLength": 0.8653522,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 9,
+                "driverName": "R2lhbmNhcmxvIEZpc2ljaGVsbGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 33.2078171,
+                "bestLapMS": 92149,
+                "lapCount": 13,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 48771,
+                "lastLapTimeMS": 92215,
+                "worldPosition": {
+                    "x": -429.089233,
+                    "y": -0.676385343,
+                    "z": -163.235931
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 13,
+                "carRealTimeLeaderboardPosition": 9,
+                "spLineLength": 0.513825,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 10,
+                "driverName": "Q2FzcGVyIE1lZWNoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 51.97598,
+                "bestLapMS": 92286,
+                "lapCount": 14,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 26715,
+                "lastLapTimeMS": 94338,
+                "worldPosition": {
+                    "x": 312.6879,
+                    "y": -17.8989048,
+                    "z": -75.23592
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 15,
+                "carRealTimeLeaderboardPosition": 10,
+                "spLineLength": 0.2975798,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 11,
+                "driverName": "R2lsbGVzIE1vcmVhdQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 69.7367554,
+                "bestLapMS": 92560,
+                "lapCount": 14,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 31188,
+                "lastLapTimeMS": 92598,
+                "worldPosition": {
+                    "x": 107.031418,
+                    "y": -5.112861,
+                    "z": -128.516663
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 16,
+                "carRealTimeLeaderboardPosition": 11,
+                "spLineLength": 0.338805526,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 12,
+                "driverName": "SmFtZXMgUGVuZHJ5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 42.2042274,
+                "bestLapMS": 91761,
+                "lapCount": 13,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 64335,
+                "lastLapTimeMS": 138936,
+                "worldPosition": {
+                    "x": -1148.05859,
+                    "y": 0.1371267,
+                    "z": 15.1690035
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 6,
+                "carRealTimeLeaderboardPosition": 12,
+                "spLineLength": 0.6926176,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 13,
+                "driverName": "Um95IE5pc3NhbnkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 86.64139,
+                "bestLapMS": 91454,
+                "lapCount": 12,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 4704,
+                "lastLapTimeMS": 93098,
+                "worldPosition": {
+                    "x": 717.3787,
+                    "y": -29.1111965,
+                    "z": -24.9505367
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 1,
+                "carRealTimeLeaderboardPosition": 13,
+                "spLineLength": 0.06755271,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 14,
+                "driverName": "QW5kcmV3IEZyb3N0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.000142311139,
+                "bestLapMS": 92101,
+                "lapCount": 14,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 49092,
+                "lastLapTimeMS": 98132,
+                "worldPosition": {
+                    "x": 545.7131,
+                    "y": -24.0645771,
+                    "z": -97.6562958
+                },
+                "isCarInPitline": 1,
+                "isCarInPit": 1,
+                "carLeaderboardPosition": 12,
+                "carRealTimeLeaderboardPosition": 14,
+                "spLineLength": 0.03558603,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 15,
+                "driverName": "Sm9zaHVhIExvcGVzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 57.908165,
+                "bestLapMS": 92041,
+                "lapCount": 13,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 36117,
+                "lastLapTimeMS": 92041,
+                "worldPosition": {
+                    "x": -160.978363,
+                    "y": -11.7167635,
+                    "z": 194.654144
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 10,
+                "carRealTimeLeaderboardPosition": 15,
+                "spLineLength": 0.4148978,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 16,
+                "driverName": "U2FzY2hhIEtheW1lcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 70.38459,
+                "bestLapMS": 92626,
+                "lapCount": 12,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 215694,
+                "lastLapTimeMS": 98302,
+                "worldPosition": {
+                    "x": -528.1024,
+                    "y": 0.636347651,
+                    "z": 56.2546349
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 17,
+                "carRealTimeLeaderboardPosition": 16,
+                "spLineLength": 0.557113,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 17,
+                "driverName": "U2NvdHQgU2hhdwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 78.80614,
+                "bestLapMS": 93336,
+                "lapCount": 12,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 176106,
+                "lastLapTimeMS": 95355,
+                "worldPosition": {
+                    "x": -753.2714,
+                    "y": -9.678736,
+                    "z": 129.967316
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 18,
+                "carRealTimeLeaderboardPosition": 17,
+                "spLineLength": 0.765747368,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 18,
+                "driverName": "QW5kZXJzIEtvbGxldm9sZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 82.56952,
+                "bestLapMS": 94038,
+                "lapCount": 13,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 79308,
+                "lastLapTimeMS": 223861,
+                "worldPosition": {
+                    "x": -145.379608,
+                    "y": -6.61744642,
+                    "z": 80.26118
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 19,
+                "carRealTimeLeaderboardPosition": 18,
+                "spLineLength": 0.8735762,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 19,
+                "driverName": "VGhvbWFzIEhlZ2dlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "cnNzX2Zvcm11bGFfaHlicmlkXzIwMjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 65.36145,
+                "bestLapMS": 92269,
+                "lapCount": 12,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 52455,
+                "lastLapTimeMS": 203094,
+                "worldPosition": {
+                    "x": -477.2299,
+                    "y": -0.0179085657,
+                    "z": 6.308087
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 14,
+                "carRealTimeLeaderboardPosition": 19,
+                "spLineLength": 0.544681966,
+                "isConnected": 1,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "carId": 0,
+                "driverName": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "carModel": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "speedMS": 0.0,
+                "bestLapMS": 0,
+                "lapCount": 0,
+                "currentLapInvalid": 0,
+                "currentLapTimeMS": 0,
+                "lastLapTimeMS": 0,
+                "worldPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "isCarInPitline": 0,
+                "isCarInPit": 0,
+                "carLeaderboardPosition": 0,
+                "carRealTimeLeaderboardPosition": 0,
+                "spLineLength": 0.0,
+                "isConnected": 0,
+                "suspensionDamage": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "engineLifeLeft": 0.0,
+                "tyreInflation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        ],
+        "acInstallPath": "RDpcU3RlYW1MaWJyYXJ5XFN0ZWFtQXBwc1xjb21tb25cYXNzZXR0b2NvcnNhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+        "isInternalMemoryModuleLoaded": 0,
+        "pluginVersion": "MS4wLjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+    },
+    "Track": {
+        "AsReportedTrackConfig": "suzukagp",
+        "AsReportedTrackCode": "rt_suzuka",
+        "Track": "rt_suzuka",
+        "TrackConfig": "suzukagp",
+        "TrackPath": null,
+        "TrackCode": "rt_suzuka-suzukagp",
+        "UIPath": "rt_suzuka\\ui\\suzukagp",
+        "MapPath": null,
+        "TrackOutlinePath": null,
+        "TrackPreviewPath": null,
+        "IsMissing": false,
+        "TrackInfo": {
+            "name": "Suzuka International Circuit GP",
+            "description": "Laser Scanned ACC Conversion.",
+            "tags": [
+                "circuit",
+                "ACC"
+            ],
+            "geotags": [
+                "34° 50' 21\" N",
+                "136° 32' 16\" E"
+            ],
+            "country": "Japan",
+            "city": "Suzuka, Mie Prefecture",
+            "length": "5807m",
+            "width": "11m",
+            "pitboxes": "36",
+            "run": "Circuit",
+            "MaxPitBoxes": 36,
+            "AvailablePitBoxes": 35
+        },
+        "MapSettings": {
+            "WIDTH": 2173.0,
+            "HEIGHT": 597.0,
+            "MARGIN": 10.0,
+            "SCALE_FACTOR": 1.0,
+            "X_OFFSET": 1176.15710449219,
+            "Y_OFFSET": 0.0,
+            "Z_OFFSET": 301.185638427734,
+            "DRAWING_SIZE": 10.0,
+            "MapImagePath": "D:\\SteamLibrary\\SteamApps\\common\\assettocorsa\\content\\tracks\\rt_suzuka\\suzukagp\\map.png"
+        }
+    },
+    "Car": {
+        "IsMissing": false,
+        "CarInfo": {
+            "name": "Formula Hybrid 2021",
+            "parent": null,
+            "brand": "Race Sim Studio",
+            "description": "Formula Hybrid 2021 by Race Sim Studio.<br><br>* Weight includes driver.",
+            "tags": [
+                "Formula",
+                "rwd",
+                "race",
+                "sequential",
+                "gp",
+                "singleseater",
+                "RSS"
+            ],
+            "class": "race",
+            "specs": {
+                "bhp": "1000bhp",
+                "torque": "681Nm",
+                "weight": "752kg",
+                "topspeed": "+340km/h",
+                "acceleration": "2s 0-100",
+                "pwratio": "0.76kg/hp"
+            },
+            "torqueCurve": [
+                [
+                    "0",
+                    "0"
+                ],
+                [
+                    "1000",
+                    "331.996581701975"
+                ],
+                [
+                    "2000",
+                    "426.913608927438"
+                ],
+                [
+                    "3000",
+                    "495.90832873576"
+                ],
+                [
+                    "4000",
+                    "575.082115516204"
+                ],
+                [
+                    "5000",
+                    "641.359387606653"
+                ],
+                [
+                    "6000",
+                    "653.564438047792"
+                ],
+                [
+                    "7000",
+                    "661.587263721342"
+                ],
+                [
+                    "7500",
+                    "666.072490366425"
+                ],
+                [
+                    "8000",
+                    "670.410363509916"
+                ],
+                [
+                    "8500",
+                    "675.013440902074"
+                ],
+                [
+                    "9000",
+                    "679.156286028181"
+                ],
+                [
+                    "9500",
+                    "681.141857887282"
+                ],
+                [
+                    "10000",
+                    "677.481677378216"
+                ],
+                [
+                    "10500",
+                    "668.140424612507"
+                ],
+                [
+                    "11000",
+                    "648.085215300926"
+                ],
+                [
+                    "11500",
+                    "619.962759395346"
+                ],
+                [
+                    "12000",
+                    "589.807194407604"
+                ],
+                [
+                    "12500",
+                    "550.167529064049"
+                ],
+                [
+                    "15000",
+                    "247.071561021102"
+                ]
+            ],
+            "powerCurve": [
+                [
+                    "0",
+                    "0"
+                ],
+                [
+                    "1000",
+                    "46.6237828823196"
+                ],
+                [
+                    "2000",
+                    "119.906821390155"
+                ],
+                [
+                    "3000",
+                    "208.92795458899"
+                ],
+                [
+                    "4000",
+                    "323.045539274877"
+                ],
+                [
+                    "5000",
+                    "450.345010843408"
+                ],
+                [
+                    "6000",
+                    "550.69807591873"
+                ],
+                [
+                    "7000",
+                    "650.367860666675"
+                ],
+                [
+                    "7500",
+                    "701.54681297157"
+                ],
+                [
+                    "8000",
+                    "753.190097804128"
+                ],
+                [
+                    "8500",
+                    "805.759142381459"
+                ],
+                [
+                    "9000",
+                    "858.392925449717"
+                ],
+                [
+                    "9500",
+                    "908.730428332214"
+                ],
+                [
+                    "10000",
+                    "951.41818843142"
+                ],
+                [
+                    "10500",
+                    "985.214836518948"
+                ],
+                [
+                    "11000",
+                    "1001.148946588"
+                ],
+                [
+                    "11500",
+                    "1001.23803329962"
+                ],
+                [
+                    "12000",
+                    "993.951531676025"
+                ],
+                [
+                    "12500",
+                    "965.781458218848"
+                ],
+                [
+                    "15000",
+                    "520.460666720854"
+                ]
+            ]
+        },
+        "CarPath": null,
+        "Model": "rss_formula_hybrid_2021",
+        "CarBadgePath": null,
+        "CarPreviewPath": null,
+        "AsReportedCarModel": null
+    },
+    "Extensions": {
+        "TCPreset": 0,
+        "ABSPreset": 0,
+        "TCPresetCount": 9,
+        "ABSPresetCount": 1,
+        "GearUpRpm": 11650.0,
+        "GearDownRpm": 80.0,
+        "GearCount": 8
+    }
+}
