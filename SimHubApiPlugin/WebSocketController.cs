@@ -52,15 +52,32 @@ namespace SimHubApiPlugin
             var wasSuccess = int.TryParse(Encoding.UTF8.GetString(buffer), out int fps);
             if (!wasSuccess) fps = 60;
             var delay = 1000f / fps;
+            var closed = false;
 
-            while (!result.CloseStatus.HasValue)
+            _ = Task.Run(async () =>
             {
-                var data = JsonConvert.SerializeObject(DataManager.Instance.CurrentData, _jsonSettings);
-                var serverMsg = Encoding.UTF8.GetBytes(data);
-                await webSocket.SendAsync(new ArraySegment<byte>(serverMsg, 0, serverMsg.Length), result.MessageType, result.EndOfMessage, CancellationToken.None);
-                await Task.Delay((int)delay);
-            }
-            await webSocket.CloseAsync(result.CloseStatus.Value, result.CloseStatusDescription, CancellationToken.None);
+                var closeBuffer = new byte[1024 * 4];
+                while (!closed)
+                {
+                    var closeResult = await webSocket.ReceiveAsync(new ArraySegment<byte>(closeBuffer), CancellationToken.None);
+                    if (webSocket.State == WebSocketState.CloseReceived)
+                    {
+                        closed = true;
+                    }
+                }
+            });
+
+            await Task.Run(async () =>
+            {
+                while (!closed)
+                {
+                    var data = JsonConvert.SerializeObject(DataManager.Instance.CurrentData, _jsonSettings);
+                    var serverMsg = Encoding.UTF8.GetBytes(data);
+                    await webSocket.SendAsync(new ArraySegment<byte>(serverMsg, 0, serverMsg.Length), result.MessageType, result.EndOfMessage, CancellationToken.None);
+                    await Task.Delay((int)delay);
+                }
+            });
+
         }
     }
 }

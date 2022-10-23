@@ -17,16 +17,20 @@ namespace SimHubApiPlugin
 {
     public class Program
     {
-        public static IDisposable Start(int port)
+        public static void StartAsync(int port, CancellationToken cancellationToken = default)
         {
-            var host = WebHost.CreateDefaultBuilder()
-                .UseStartup<Startup>()
-                .UseUrls("http://*:" + port.ToString())
-                .Build();
-
-            host.RunAsync();
-
-            return new ActionDisposable(() => host.StopAsync());
+            try
+            {
+                WebHost.CreateDefaultBuilder()
+                    .UseStartup<Startup>()
+                    .UseUrls("http://*:" + port.ToString())
+                    .Build()
+                    .RunAsync(cancellationToken);
+            }
+            catch (Exception ex)
+            {
+                SimHub.Logging.Current.Error("Unable to start API", ex);
+            }
         }
 
         private class ActionDisposable : IDisposable

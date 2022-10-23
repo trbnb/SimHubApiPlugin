@@ -292,6 +292,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataManager.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Models\Assist.cs" />
+    <Compile Include="Models\DrsState.cs" />
+    <Compile Include="Models\ErsState.cs" />
+    <Compile Include="Models\FlagState.cs" />
+    <Compile Include="Models\GameData.cs" />
+    <Compile Include="Models\WheelInfo.cs" />
+    <Compile Include="Models\WheelInfos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimHubApiPlugin.cs" />
@@ -301,6 +309,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="TODO.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

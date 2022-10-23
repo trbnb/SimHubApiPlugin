@@ -14,31 +14,31 @@ namespace SimHubApiPlugin
     [PluginName("SimHubApiPlugin")]
     public class SimHubApiPlugin : IPlugin, IDataPlugin
     {
-        public PluginManager PluginManager { get; set; }
+        private readonly CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
 
-        public IDisposable disposable = null;
+        public PluginManager PluginManager { get; set; }
 
         public void Init(PluginManager pluginManager)
         {
             SimHub.Logging.Current.Info("Starting custom API Plugin");
-            try
-            {
-                disposable = Program.Start(9999);
-            }
-            catch (Exception ex)
-            {
-                SimHub.Logging.Current.Error("Unable to start API", ex);
-            }
+            Program.StartAsync(9999, cancellationTokenSource.Token);
         }
 
         public void End(PluginManager pluginManager)
         {
-            disposable.Dispose();
+            cancellationTokenSource.Cancel();
         }
 
         public void DataUpdate(PluginManager pluginManager, ref GameReaderCommon.GameData data)
         {
-            DataManager.Instance.OnNewData(ref data);
+            try
+            {
+                DataManager.Instance.OnNewData(ref data);
+            }
+            catch (Exception ex)
+            {
+                SimHub.Logging.Current.Error("Unable to parse data: " + ex.Message, ex);
+            }
         }
     }
 }
