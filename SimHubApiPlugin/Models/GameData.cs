@@ -51,41 +51,41 @@ namespace SimHubApiPlugin
         public float ErsBattery { get; set; }
         public double ErsAllowance { get; set; }
     }
-}
 
-public class WheelInfo {
-    public string Temperature { get; set; }
-    public string Health { get; set; }
-    public string Pressure { get; set; }
-}
+    public class WheelInfo {
+        public float Temperature { get; set; }
+        public float Health { get; set; }
+        public float Pressure { get; set; }
+    }
 
-public class WheelInfos {
-    public WheelInfo FrontLeft { get; set; }
-    public WheelInfo FrontRight { get; set; }
-    public WheelInfo RearLeft { get; set; }
-    public WheelInfo RearRight { get; set; }
-}
+    public class WheelInfos {
+        public WheelInfo FrontLeft { get; set; }
+        public WheelInfo FrontRight { get; set; }
+        public WheelInfo RearLeft { get; set; }
+        public WheelInfo RearRight { get; set; }
+    }
 
-public enum DrsState {
-    None, Available, Enabled
-}
+    public enum DrsState {
+        None, Available, Enabled
+    }
 
-public class FlagState {
-    public bool Black { get; set; }
-    public bool Orange { get; set; }
-    public bool Blue { get; set; }
-    public bool Checkered { get; set; }
-    public bool Green { get; set; }
-    public string Name { get; set; }
-    public bool White { get; set; }
-    public bool Yellow { get; set; }
-}
+    public class FlagState {
+        public bool Black { get; set; }
+        public bool Orange { get; set; }
+        public bool Blue { get; set; }
+        public bool Checkered { get; set; }
+        public bool Green { get; set; }
+        public string Name { get; set; }
+        public bool White { get; set; }
+        public bool Yellow { get; set; }
+    }
 
-public class ErsState {
-    public float BatteryCharge { get; set; }
-    public float RemainingLapAllowance { get; set; }
-    public int MguHMode { get; set; }
-    public int MguKMode { get; set; }
-    public int RecoveryLevel { get; set; }
-    public int EngineBrake { get; set; }
+    public class ErsState {
+        public float BatteryCharge { get; set; }
+        public float RemainingLapAllowance { get; set; }
+        public int MguHMode { get; set; }
+        public int MguKMode { get; set; }
+        public int RecoveryLevel { get; set; }
+        public int EngineBrake { get; set; }
+    }
 }

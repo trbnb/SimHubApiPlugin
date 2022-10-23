@@ -44,21 +44,6 @@ namespace SimHubApiPlugin
         }
     }
 
-    public class GameData
-    {
-        public double Speed { get; set; }
-        public float DeltaInSeconds { get; set; }
-        public string Gear { get; set; }
-        public int TC1 { get; set; }
-        public int TC2 { get; set; }
-        public int ABS { get; set; }
-        public double FuelRemaining { get; set; }
-        public bool ErsAvailable { get; set; }
-        public float ErsBattery { get; set; }
-        public double ErsAllowance { get; set; }
-        public double BrakeBias { get; set; }
-    }
-
     public class RawDataParser
     {
         private readonly ACRawData acRawData;
@@ -72,5 +57,6 @@ namespace SimHubApiPlugin
 
         public float DeltaInSeconds => acRawData?.Physics.PerformanceMeter ?? accRawData?.Physics.PerformanceMeter ?? 0f;
         public float ErsBattery => acRawData?.Physics.KersCharge ?? accRawData?.Physics.KersCharge ?? 0f;
+        public int TC2 => accRawData?.Physics
     }
 }
