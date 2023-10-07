@@ -9,11 +9,14 @@ namespace SimHubApiPlugin
         public float Rpm { get; set; }
         public float MaxRpm { get; set; }
         public float Redline { get; set; }
+        public bool ShouldShift { get; set; }
+        public float Turbo { get; set; }
 
         public long CurrentLapTime { get; set; }
         public long LastLapTime { get; set; }
         public long BestLapTime { get; set; }
-        public float DeltaInSeconds { get; set; }
+        public long? FastestLapTime { get; set; }
+        public float? DeltaInSeconds { get; set; }
         public bool IsLapValid { get; set; }
 
         public int CurrentLap { get; set; }
@@ -36,6 +39,7 @@ namespace SimHubApiPlugin
         public float FuelRemaining { get; set; }
         public float? FuelPerLap { get; set; }
         public float? FuelRemainingLaps { get; set; }
+        public bool IsFuelAlertActive { get; set; }
 
         public FlagState FlagState { get; set; }
 

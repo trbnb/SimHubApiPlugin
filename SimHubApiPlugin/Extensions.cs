@@ -16,11 +16,11 @@ namespace SimHubApiPlugin
         {
             if (transform(receiver))
             {
-                return receiver;
+                return null;
             }
             else
             {
-                return null;
+                return receiver;
             }
         }
 

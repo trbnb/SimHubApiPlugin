@@ -11,22 +11,28 @@ namespace SimHubApiPlugin
 {
     [PluginDescription("Custom Api")]
     [PluginAuthor("Thorben")]
-    [PluginName("SimHubApiPlugin")]
-    public class SimHubApiPlugin : IPlugin, IDataPlugin
+    [PluginName("CustomSimHubWsServerPlugin")]
+    public class SimHubApiPlugin : PluginBase, IDataPlugin
     {
-        private readonly CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
-
-        public PluginManager PluginManager { get; set; }
-
-        public void Init(PluginManager pluginManager)
+        public override void Init(PluginManager pluginManager)
         {
             SimHub.Logging.Current.Info("Starting custom API Plugin");
-            Program.StartAsync(9999, cancellationTokenSource.Token);
+            try
+            {
+                Startup.Start(9999);
+            }
+            catch (Exception e)
+            {
+                SimHub.Logging.Current.Error("Failed", e);
+                throw;
+            }
+            
+            SimHub.Logging.Current.Info("Success!");
         }
 
-        public void End(PluginManager pluginManager)
+        public override void End(PluginManager pluginManager)
         {
-            cancellationTokenSource.Cancel();
+            
         }
 
         public void DataUpdate(PluginManager pluginManager, ref GameReaderCommon.GameData data)
