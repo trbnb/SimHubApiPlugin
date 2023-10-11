@@ -1,28 +1,27 @@
 ﻿using GameReaderCommon;
 using SimHubApiPlugin.Models;
 
-namespace SimHubApiPlugin.Parsing
+namespace SimHubApiPlugin.Parsing;
+
+public abstract class RawDataParser<T> : IGameDataParser<GameData<T>>
 {
-    public abstract class RawDataParser<T> : IGameDataParser<GameData<T>>
+    protected IGameDataParser Fallback { get; }
+
+    protected RawDataParser(IGameDataParser fallback)
     {
-        protected IGameDataParser Fallback { get; }
+        Fallback = fallback;
+    }
 
-        protected RawDataParser(IGameDataParser fallback)
+    public virtual GameDataDto OnNewData(GameData<T> gameData) => OnNewData(gameData, gameData.GameNewData.Raw);
+
+    protected abstract GameDataDto OnNewData(GameData<T> gameData, T raw);
+
+    public GameDataDto OnNewData(GameData gameData)
+    {
+        return gameData switch
         {
-            Fallback = fallback;
-        }
-
-        public GameDataDto OnNewData(GameData<T> gameData) => OnNewData(gameData, gameData.GameNewData.Raw);
-
-        protected abstract GameDataDto OnNewData(GameData<T> gameData, T raw);
-
-        public GameDataDto OnNewData(GameReaderCommon.GameData gameData)
-        {
-            return gameData switch
-            {
-                GameData<T> typedGameData => OnNewData(typedGameData),
-                _ => Fallback.OnNewData(gameData)
-            };
-        }
+            GameData<T> typedGameData => OnNewData(typedGameData),
+            _ => Fallback.OnNewData(gameData)
+        };
     }
 }

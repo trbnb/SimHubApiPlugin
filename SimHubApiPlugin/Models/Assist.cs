@@ -1,7 +1,6 @@
-﻿namespace SimHubApiPlugin.Models
-{
-    public record Assist(
-        int Level,
-        bool IsActive
-    );
-}
+﻿namespace SimHubApiPlugin.Models;
+
+public record Assist(
+    int Level,
+    bool IsActive
+);

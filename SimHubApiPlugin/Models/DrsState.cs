@@ -1,6 +1,5 @@
-﻿namespace SimHubApiPlugin.Models
-{
-    public enum DrsState {
-        None, Available, Enabled
-    }
+﻿namespace SimHubApiPlugin.Models;
+
+public enum DrsState {
+    None, Available, Enabled
 }

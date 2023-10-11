@@ -1,8 +1,7 @@
-﻿namespace SimHubApiPlugin.Models
+﻿namespace SimHubApiPlugin.Models;
+
+public enum MguHMode
 {
-    public enum MguHMode
-    {
-        Battery = 1,
-        Motor = 0
-    }
+    Battery = 1,
+    Motor = 0
 }

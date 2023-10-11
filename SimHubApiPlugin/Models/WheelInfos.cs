@@ -1,12 +1,11 @@
-﻿namespace SimHubApiPlugin.Models
-{
-    public record WheelInfos(
-        WheelInfo FrontLeft,
-        WheelInfo FrontRight,
-        WheelInfo RearLeft,
-        WheelInfo RearRight,
+﻿namespace SimHubApiPlugin.Models;
 
-        string TemperatureUnit,
-        string PressureUnit
-    );
-}
+public record WheelInfos(
+    WheelInfo FrontLeft,
+    WheelInfo FrontRight,
+    WheelInfo RearLeft,
+    WheelInfo RearRight,
+
+    string TemperatureUnit,
+    string PressureUnit
+);
