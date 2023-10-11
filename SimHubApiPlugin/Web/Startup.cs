@@ -7,17 +7,10 @@ using System.Net.Sockets;
 using System.Threading;
 using SimHub;
 
-namespace SimHubApiPlugin
+namespace SimHubApiPlugin.Web
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
-
-        public IConfiguration Configuration { get; }
-
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -38,18 +31,23 @@ namespace SimHubApiPlugin
             app.UseMvc();
         }
         
-        private static void RunWebHost(int port)
+        public static void StartWebHost(
+            int port,
+            Action<WebHostBuilderContext, IServiceCollection> configureServices,
+            CancellationToken cancellationToken = default
+        )
         {
             try
             {
                 Logging.Current.Info($"SimHubApiPlugin plugin listening to {port} (User friendly port)");
                 new WebHostBuilder()
                     .UseKestrel(serverOptions => serverOptions.ConfigureEndpointDefaults(listenOptions => listenOptions.NoDelay = true))
+                    .ConfigureServices(configureServices)
                     .UseStartup<Startup>()
                     .UseUrls($"http://*:{port}")
                     .UseWebRoot("Web")
                     .Build()
-                    .Run();
+                    .RunAsync(cancellationToken);
             }
             catch (SocketException ex)
             {
@@ -65,10 +63,5 @@ namespace SimHubApiPlugin
                 Logging.Current.Error(ex);
             }
         }
-
-        public static void Start(int port) => new Thread(() => RunWebHost(port))
-        {
-            Name = "KestrelThread"
-        }.Start();
     }
 }

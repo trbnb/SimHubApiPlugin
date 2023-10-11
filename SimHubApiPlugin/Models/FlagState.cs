@@ -1,13 +1,13 @@
-﻿namespace SimHubApiPlugin
+﻿namespace SimHubApiPlugin.Models
 {
-    public class FlagState {
-        public bool Black { get; set; }
-        public bool Orange { get; set; }
-        public bool Blue { get; set; }
-        public bool Checkered { get; set; }
-        public bool Green { get; set; }
-        public string Name { get; set; }
-        public bool White { get; set; }
-        public bool Yellow { get; set; }
-    }
+    public record FlagState(
+        bool Black,
+        bool Orange,
+        bool Blue,
+        bool Checkered,
+        bool Green,
+        string Name,
+        bool White,
+        bool Yellow
+    );
 }

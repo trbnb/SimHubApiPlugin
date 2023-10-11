@@ -1,8 +1,9 @@
-﻿namespace SimHubApiPlugin
+﻿namespace SimHubApiPlugin.Models
 {
-    public class WheelInfo {
-        public float Temperature { get; set; }
-        public float Health { get; set; }
-        public float Pressure { get; set; }
-    }
+    public record WheelInfo(
+        float Temperature,
+        float? Health,
+        string? HealthFormatted,
+        float Pressure
+    );
 }

@@ -7,36 +7,39 @@ using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using SimHubApiPlugin.DataManager;
+using SimHubApiPlugin.Models;
 
-namespace SimHubApiPlugin
+namespace SimHubApiPlugin.Web
 {
     [Route("[controller]")]
     [ApiController]
     public class DataController : ControllerBase
     {
-        private readonly JsonSerializerSettings _jsonSettings = new JsonSerializerSettings()
+        private readonly JsonSerializerSettings jsonSettings = new()
         {
             ContractResolver = new CamelCasePropertyNamesContractResolver()
         };
 
-        public DataController()
+        private readonly IDataManager dataManager;
+
+        public DataController(IDataManager dataManager)
         {
-            _jsonSettings.Converters.Add(new StringEnumConverter());
+            this.dataManager = dataManager;
+            jsonSettings.Converters.Add(new StringEnumConverter());
         }
 
         // GET api/values
         [HttpGet]
-        public ActionResult<GameData> Get() => DataManager.Instance.CurrentData;
+        public ActionResult<GameDataDto?> Get() => dataManager.GameDataDto;
 
         [HttpGet("/ws")]
         public async Task GetWs()
         {
             if (HttpContext.WebSockets.IsWebSocketRequest)
             {
-                using (var webSocket = await HttpContext.WebSockets.AcceptWebSocketAsync())
-                {
-                    await Echo(webSocket);
-                }                    
+                using var webSocket = await HttpContext.WebSockets.AcceptWebSocketAsync();
+                await Echo(webSocket);
             }
             else
             {
@@ -58,7 +61,7 @@ namespace SimHubApiPlugin
                 var closeBuffer = new byte[1024 * 4];
                 while (!closed)
                 {
-                    var closeResult = await webSocket.ReceiveAsync(new ArraySegment<byte>(closeBuffer), CancellationToken.None);
+                    await webSocket.ReceiveAsync(new ArraySegment<byte>(closeBuffer), CancellationToken.None);
                     if (webSocket.State == WebSocketState.CloseReceived)
                     {
                         closed = true;
@@ -70,7 +73,7 @@ namespace SimHubApiPlugin
             {
                 while (!closed)
                 {
-                    var data = JsonConvert.SerializeObject(DataManager.Instance.CurrentData, _jsonSettings);
+                    var data = JsonConvert.SerializeObject(dataManager.GameDataDto, jsonSettings);
                     var serverMsg = Encoding.UTF8.GetBytes(data);
                     await webSocket.SendAsync(new ArraySegment<byte>(serverMsg, 0, serverMsg.Length), result.MessageType, result.EndOfMessage, CancellationToken.None);
                     await Task.Delay((int)delay);

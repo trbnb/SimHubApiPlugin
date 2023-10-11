@@ -1,49 +1,51 @@
-﻿using GameReaderCommon;
-using SimHub.Plugins;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System;
 using System.Threading;
-using System.Threading.Tasks;
+using Microsoft.Extensions.DependencyInjection;
+using SimHub;
+using SimHub.Plugins;
+using SimHubApiPlugin.DataManager;
+using SimHubApiPlugin.Web;
 
 namespace SimHubApiPlugin
 {
     [PluginDescription("Custom Api")]
     [PluginAuthor("Thorben")]
     [PluginName("CustomSimHubWsServerPlugin")]
+    // ReSharper disable once UnusedType.Global
     public class SimHubApiPlugin : PluginBase, IDataPlugin
     {
+        private readonly CancellationTokenSource cancellationTokenSource = new();
+        private readonly IDataManager dataManager = new DataManager.DataManager();
+        
         public override void Init(PluginManager pluginManager)
         {
-            SimHub.Logging.Current.Info("Starting custom API Plugin");
-            try
-            {
-                Startup.Start(9999);
-            }
-            catch (Exception e)
-            {
-                SimHub.Logging.Current.Error("Failed", e);
-                throw;
-            }
-            
-            SimHub.Logging.Current.Info("Success!");
+            Logging.Current.Info("Starting custom API Plugin");
+            dataManager.Init(pluginManager);
+            Startup.StartWebHost(
+                port: 9999,
+                cancellationToken: cancellationTokenSource.Token,
+                configureServices: (_, collection) =>
+                {
+                    collection.AddSingleton(dataManager);
+                }
+            );
         }
 
         public override void End(PluginManager pluginManager)
         {
-            
+            cancellationTokenSource.Cancel();
+            dataManager.Dispose();
         }
 
         public void DataUpdate(PluginManager pluginManager, ref GameReaderCommon.GameData data)
         {
             try
             {
-                DataManager.Instance.OnNewData(ref data);
+                dataManager.OnNewData(data);
             }
             catch (Exception ex)
             {
-                SimHub.Logging.Current.Error("Unable to parse data: " + ex.Message, ex);
+                Logging.Current.Error("Unable to parse data: " + ex.Message, ex);
             }
         }
     }
