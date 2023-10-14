@@ -5,10 +5,9 @@ using SimHubApiPlugin.Models;
 
 namespace SimHubApiPlugin.DataManager;
 
-public interface IDataManager : IDisposable
+public interface IDataManager
 {
     public GameDataDto? GameDataDto { get; }
 
-    public void Init(PluginManager pluginManager);
     public void OnNewData(GameData gameData);
 }

@@ -5,7 +5,11 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Net.Sockets;
 using System.Threading;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Serialization;
 using SimHub;
+using SimHubApiPlugin.Utils;
 
 namespace SimHubApiPlugin.Web;
 
@@ -16,6 +20,11 @@ public class Startup
     {
         services.AddMvcCore()
             .AddJsonFormatters();
+
+        services.AddSingleton(new JsonSerializerSettings
+        {
+            ContractResolver = new CamelCasePropertyNamesContractResolver()
+        }.Also(it => it.Converters.Add(new StringEnumConverter())));
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

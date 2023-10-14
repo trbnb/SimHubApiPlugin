@@ -4,8 +4,16 @@ public record WheelInfos(
     WheelInfo FrontLeft,
     WheelInfo FrontRight,
     WheelInfo RearLeft,
-    WheelInfo RearRight,
+    WheelInfo RearRight
+);
 
-    string TemperatureUnit,
-    string PressureUnit
+public record WheelInfo(
+    float Temperature,
+    TyreHealth? Health,
+    string Pressure
+);
+
+public record TyreHealth(
+    float Value,
+    string Formatted
 );

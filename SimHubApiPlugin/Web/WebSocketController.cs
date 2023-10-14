@@ -16,17 +16,14 @@ namespace SimHubApiPlugin.Web;
 [ApiController]
 public class DataController : ControllerBase
 {
-    private readonly JsonSerializerSettings jsonSettings = new()
-    {
-        ContractResolver = new CamelCasePropertyNamesContractResolver()
-    };
+    private readonly JsonSerializerSettings jsonSerializerSettings;
 
     private readonly IDataManager dataManager;
 
-    public DataController(IDataManager dataManager)
+    public DataController(IDataManager dataManager, JsonSerializerSettings jsonSerializerSettings)
     {
         this.dataManager = dataManager;
-        jsonSettings.Converters.Add(new StringEnumConverter());
+        this.jsonSerializerSettings = jsonSerializerSettings;
     }
 
     // GET api/values
@@ -73,7 +70,7 @@ public class DataController : ControllerBase
         {
             while (!closed)
             {
-                var data = JsonConvert.SerializeObject(dataManager.GameDataDto, jsonSettings);
+                var data = JsonConvert.SerializeObject(dataManager.GameDataDto, jsonSerializerSettings);
                 var serverMsg = Encoding.UTF8.GetBytes(data);
                 await webSocket.SendAsync(new ArraySegment<byte>(serverMsg, 0, serverMsg.Length), result.MessageType, result.EndOfMessage, CancellationToken.None);
                 await Task.Delay((int)delay);

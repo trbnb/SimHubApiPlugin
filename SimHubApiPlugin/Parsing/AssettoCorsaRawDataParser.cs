@@ -19,10 +19,9 @@ public class AssettoCorsaRawDataParser : RawDataParser<ACRawData>
         var fallbackData = Fallback.OnNewData(gameData);
         return fallbackData with
         {
-            DeltaInSeconds = raw.Physics.PerformanceMeter,
-            DeltaFormatted = raw.Physics.PerformanceMeter
+            Delta = raw.Physics.PerformanceMeter
                 .Let(it => new TimeSpan((int)it * 1000))
-                .FormatDelta(),
+                .ToDelta(),
             TyreCompound = raw.Graphics.TyreCompound,
             Tc1 = fallbackData.Tc1?.TakeUnless(_ => raw.Extensions.TCPresetCount > 1),
             Abs = fallbackData.Abs?.TakeUnless(_ => raw.Extensions.ABSPresetCount > 1),

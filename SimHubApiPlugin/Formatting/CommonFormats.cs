@@ -1,4 +1,5 @@
 ﻿using System;
+using SimHubApiPlugin.Models;
 
 namespace SimHubApiPlugin.Formatting;
 
@@ -13,10 +14,5 @@ public static class CommonFormats
     public static string FormatSessionTime(this TimeSpan timeSpan) => timeSpan
         .ToString(timeSpan.TotalHours >= 1 ? SessionTimeLong : SessionTimeShort);
 
-    public static string FormatDelta(this TimeSpan timeSpan) => timeSpan.TotalMilliseconds switch
-    {
-        < 0 => "-",
-        > 0 => "+",
-        _ => "±"
-    } + timeSpan.ToString(Delta);
+    public static string FormatDelta(this TimeSpan timeSpan) => timeSpan.GetSign().Format() + timeSpan.ToString(Delta);
 }

@@ -21,10 +21,15 @@ public class AssettoCorsaCompetizioneRawDataParser : RawDataParser<ACCRawData>
             IsActive: false
         ),
         FastestLapTime = raw.Realtime.BestSessionLap.LaptimeMS?.ToTimeSpan().FormatLaptime(),
-        DeltaInSeconds = raw.Graphics.iDeltaLapTime / 1000f,
-        DeltaFormatted = raw.Graphics.iDeltaLapTime.ToTimeSpan().FormatDelta(),
+        Delta = raw.Graphics.iDeltaLapTime.ToTimeSpan().ToDelta(),
         EngineMap = raw.Graphics.EngineMap,
-        IsLightOn = raw.Graphics.LightsStage > 0,
+        LightsMode = raw.Graphics.LightsStage switch
+        {
+            0 => LightsMode.Off,
+            1 => LightsMode.On,
+            _ => LightsMode.HighBeam
+        },
+        IsRainlightOn = raw.Graphics.RainLights > 0,
         TyreCompound = raw.Graphics.TyreCompound.Let(it => it == "dry_compound" ? "DRY" : "WET"),
         FuelPerLap = raw.Graphics.FuelXLap.ToString("F2"),
         FuelRemainingLaps = raw.Graphics.fuelEstimatedLaps.ToString("F2")

@@ -18,8 +18,7 @@ public class Automobilista2RawDataParser : RawDataParser<AMS2APIStruct>
     ) => Fallback.OnNewData(gameData) with
     {
         FastestLapTime = raw.mSessionFastestLapTime.ToTimeSpan().FormatLaptime(),
-        DeltaInSeconds = raw.mSplitTime,
-        DeltaFormatted = (raw.mSplitTime * 1000).ToTimeSpan().FormatDelta(),
+        Delta = (raw.mSplitTime * 1000).ToTimeSpan().ToDelta(),
         TyreCompound = raw.mTyreCompound.First().value ?? string.Empty,
         Tc1 = null
     };

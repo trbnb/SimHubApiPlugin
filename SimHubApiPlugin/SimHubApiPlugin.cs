@@ -15,12 +15,13 @@ namespace SimHubApiPlugin;
 public class SimHubApiPlugin : PluginBase, IDataPlugin
 {
     private readonly CancellationTokenSource cancellationTokenSource = new();
-    private readonly IDataManager dataManager = new DataManager.DataManager();
-        
+    private IDataManager? currentDataManager;
+
     public override void Init(PluginManager pluginManager)
     {
         Logging.Current.Info("Starting custom API Plugin");
-        dataManager.Init(pluginManager);
+        IDataManager dataManager = new DataManager.DataManager(pluginManager);
+        currentDataManager = dataManager;
         Startup.StartWebHost(
             port: 9999,
             cancellationToken: cancellationTokenSource.Token,
@@ -34,14 +35,13 @@ public class SimHubApiPlugin : PluginBase, IDataPlugin
     public override void End(PluginManager pluginManager)
     {
         cancellationTokenSource.Cancel();
-        dataManager.Dispose();
     }
 
     public void DataUpdate(PluginManager pluginManager, ref GameReaderCommon.GameData data)
     {
         try
         {
-            dataManager.OnNewData(data);
+            currentDataManager?.OnNewData(data);
         }
         catch (Exception ex)
         {

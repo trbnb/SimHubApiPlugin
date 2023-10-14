@@ -1,4 +1,6 @@
-﻿namespace SimHubApiPlugin.Models;
+﻿using System;
+
+namespace SimHubApiPlugin.Models;
 
 public enum Sign
 {
@@ -15,5 +17,12 @@ public static class SignExtensions
         Sign.Negative => "-",
         Sign.Neutral => "±",
         _ => ""
+    };
+
+    public static Sign GetSign(this TimeSpan timeSpan) => timeSpan.Milliseconds switch
+    {
+        > 0 => Sign.Positive,
+        < 0 => Sign.Negative,
+        _ => Sign.Neutral
     };
 }

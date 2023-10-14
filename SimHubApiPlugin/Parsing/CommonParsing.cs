@@ -1,4 +1,5 @@
-﻿using GameReaderCommon;
+﻿using System;
+using GameReaderCommon;
 using SimHubApiPlugin.Formatting;
 using SimHubApiPlugin.Models;
 using SimHubApiPlugin.Utils;
@@ -56,39 +57,36 @@ public static class CommonParsing
     public static int Position(this GameData data) => data.NewData.Position;
     public static int TotalPositions(this GameData data) => data.NewData.OpponentsCount;
         
-    public static DrsState DrsState(this GameData data)
-    {
-        if (data.NewData.IsInPitLane == 1) return None;
-        if (data.NewData.DRSEnabled == 1) return Enabled;
-        if (data.NewData.DRSAvailable == 1) return Available;
-        return None;
-    }
-    public static WheelInfos WheelInfos(this GameData gameData) => new WheelInfos(
-        TemperatureUnit: gameData.NewData.TemperatureUnit,
-        PressureUnit: gameData.NewData.TyrePressureUnit,
+    public static DrsState DrsState(this GameData data) =>
+        data.NewData.IsInPitLane == 1 ? None :
+        data.NewData.DRSEnabled == 1 ? Enabled :
+        data.NewData.DRSAvailable == 1 ? Available : None;
+
+    public static WheelInfos WheelInfos(this GameData gameData, Func<double, TyreHealth> toTyreHealth) => new(
         FrontLeft: new WheelInfo(
-            Health: gameData.NewData.TyreWearFrontLeft.ToFloat(),
-            HealthFormatted: gameData.NewData.TyreWearFrontLeft.ToString("P1"),
-            Pressure: gameData.NewData.TyrePressureFrontLeft.ToFloat(),
+            Health: toTyreHealth(gameData.NewData.TyreWearFrontLeft),
+            Pressure: gameData.NewData.TyrePressureFrontLeft.ToString("F1") + gameData.NewData.TyrePressureUnit,
             Temperature: gameData.NewData.TyreTemperatureFrontLeft.ToFloat()
         ),
         FrontRight: new WheelInfo(
-            Health: gameData.NewData.TyreWearFrontRight.ToFloat(),
-            HealthFormatted: gameData.NewData.TyreWearFrontRight.ToString("P1"),
-            Pressure: gameData.NewData.TyrePressureFrontRight.ToFloat(),
+            Health: toTyreHealth(gameData.NewData.TyreWearFrontRight),
+            Pressure: gameData.NewData.TyrePressureFrontRight.ToString("F1") + gameData.NewData.TyrePressureUnit,
             Temperature: gameData.NewData.TyreTemperatureFrontRight.ToFloat()
         ),
         RearLeft: new WheelInfo(
-            Health: gameData.NewData.TyreWearRearLeft.ToFloat(),
-            HealthFormatted: gameData.NewData.TyreWearRearLeft.ToString("P1"),
-            Pressure: gameData.NewData.TyrePressureRearLeft.ToFloat(),
+            Health: toTyreHealth(gameData.NewData.TyreWearRearLeft),
+            Pressure: gameData.NewData.TyrePressureRearLeft.ToString("F1") + gameData.NewData.TyrePressureUnit,
             Temperature: gameData.NewData.TyreTemperatureRearLeft.ToFloat()
         ),
         RearRight: new WheelInfo(
-            Health: gameData.NewData.TyreWearRearRight.ToFloat(),
-            HealthFormatted: gameData.NewData.TyreWearRearRight.ToString("P1"),
-            Pressure: gameData.NewData.TyrePressureRearRight.ToFloat(),
+            Health: toTyreHealth(gameData.NewData.TyreWearRearRight),
+            Pressure: gameData.NewData.TyrePressureRearRight.ToString("F1") + gameData.NewData.TyrePressureUnit,
             Temperature: gameData.NewData.TyreTemperatureRearRight.ToFloat()
         )
+    );
+
+    public static TyreHealth ToTyreHealth(this double wear) => new(
+        Value: wear.ToFloat(),
+        Formatted: wear.ToString("P1")
     );
 }

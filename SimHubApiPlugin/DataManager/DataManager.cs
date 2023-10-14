@@ -13,9 +13,9 @@ public class DataManager : IDataManager
 {
     public GameDataDto? GameDataDto { get; private set; }
         
-    private IGameDataParser? parser;
+    private readonly IGameDataParser? parser;
 
-    public void Init(PluginManager pluginManager)
+    public DataManager(PluginManager pluginManager)
     {
         var genericParser = new GenericDataParser();
         parser = pluginManager.GameManager switch
@@ -33,10 +33,5 @@ public class DataManager : IDataManager
         if (gameData.NewData == null) return;
             
         parser?.Let(it => GameDataDto = it.OnNewData(gameData));
-    }
-
-    public void Dispose()
-    {
-        parser = null;
     }
 }
